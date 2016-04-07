@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BDO Crystals</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body ng-app="crystalApp">
+<div ng-controller="crystalCtrl as cc">
+    <div class="row">
+        <div class="col-md-12">
+                <h2>Black Desert Crystal DB</h2>
+                <p>A small database for crystals, most other databases lack sort functions. You are able to sort crystals by rarity and socket slot</p>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 10px;">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <label>Rarity</label>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <label>Socket Slot</label>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <label>Effect</label>
+        </div>
+    </div>
+    <div class="row" style="margin-bottom: 15px;">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <select id="rarity" class="select-size" ng-model="cc.search.Rarity">
+                <option value="">Any</option>
+                <option value="White">White</option>
+                <option value="Green">Green</option>
+                <option value="Blue">Blue</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Orange">Orange</option>
+            </select>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <select id="slot" class="select-size" ng-model="cc.search.Slot">
+                <option value="">All</option>
+                <option value="Weapon">Weapon</option>
+                <option value="Secondary">Secondary Weapon</option>
+                <option value="Helmet">Helmet</option>
+                <option value="Armor">Armor</option>
+                <option value="Gloves">Gloves</option>
+                <option value="Shoes">Shoes</option>
+            </select>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <input type="text" ng-model="cc.search.ItemEffect" style="width:100%">
+        </div>
+
+    </div>
+    <div class="row">
+        <table class="table-striped">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Item Effect</th>
+                <th>Socket Slot</th>
+                <th>Rarity</th>
+            </tr>
+            </thead>
+            <tbody id="tbodyT">
+                <tr ng-repeat="crystal in cc.crystals | filter:cc.search">
+                    <td>{{crystal.Name}}</td>
+                    <td>{{crystal.ItemEffect}}</td>
+                    <td>{{crystal.Slot}}</td>
+                    <td>{{crystal.Rarity}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="scripts/crystals.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
