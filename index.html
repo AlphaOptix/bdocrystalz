@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body ng-app="crystalApp">
-<div ng-controller="crystalCtrl as cc">
+<div ng-controller="crystalCtrl as cc" class="container">
     <div class="row">
         <div class="col-md-12">
                 <h2>Black Desert Crystal DB</h2>
@@ -58,26 +58,26 @@
 
     </div>
     <div class="row">
-        <table class="table-striped">
-            <thead>
-            <tr>
-                <th>Name</th>
-                <th>Item Effect</th>
-                <th>Socket Slot</th>
-                <th>Rarity</th>
-                <th></th>
-            </tr>
-            </thead>
-            <tbody id="tbodyT">
-                <tr ng-repeat="crystal in cc.crystals | filter:cc.search">
-                    <td>{{crystal.Name}}</td>
-                    <td>{{crystal.ItemEffect}}</td>
-                    <td>{{crystal.Slot}}</td>
-                    <td>{{crystal.Rarity}}</td>
-                    <td><a ng-href="{{'http://bddatabase.net/us/item/'+crystal.ID}}">Link</a></td>
+        <div class="col-md-12">
+            <table class="table-striped">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Item Effect</th>
+                    <th>Socket Slot</th>
                 </tr>
-            </tbody>
-        </table>
+                </thead>
+                <tbody id="tbodyT">
+                    <tr ng-repeat="crystal in cc.crystals | filter:cc.search:{Slot:'any'}">
+                        <td><img ng-src="{{crystal.Image}}" style="margin-right:10px"/></td>
+                        <td><a style="color:{{crystal.Rarity}};font-weight:bold;text-decoration:none" ng-href="{{'http://bddatabase.net/us/item/'+crystal.ID}}">{{crystal.Name}}</a></td>
+                        <td>{{crystal.ItemEffect}}</td>
+                        <td>{{crystal.Slot}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>
 
