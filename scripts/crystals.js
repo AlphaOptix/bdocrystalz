@@ -3,7 +3,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal - Agony",
         "Slot": "Weapon",
-        "ItemEffect": "Attack Speed & Casting Speed +1",
+        "ItemEffect": "Attack Speed +1 & Casting Speed +1",
         "Weight": 0.1,
 		"BreakChance": "Low",
         "Rarity": "Orange",
@@ -13,7 +13,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal - Carmae",
         "Slot": "Weapon",
-        "ItemEffect": "Critical Hit Rate & Attack Speed + 1",
+        "ItemEffect": "Critical Hit Rate +1 & Attack Speed + 1",
         "Weight": 0.1,
 		"BreakChance": "Low",
         "Rarity": "Orange",
@@ -53,7 +53,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal - Temptation",
         "Slot": "Weapon",
-        "ItemEffect": "Attack Speed & Critical Hit Rate +1",
+        "ItemEffect": "Attack Speed +1 & Critical Hit Rate +1",
         "Weight": 0.1,
 		"BreakChance": "Low",
         "Rarity": "Orange",
@@ -63,7 +63,7 @@ BDO.crystals = [
     {
         "Name": "Black Magic Crystal - Carmae",
         "Slot": "Weapon",
-        "ItemEffect": "Critical Hit Rate & Attack Speed +1 & AP +2",
+        "ItemEffect": "Critical Hit Rate +1 & Attack Speed +1 & AP +2",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "Orange",
@@ -73,7 +73,7 @@ BDO.crystals = [
     {
         "Name": "Red Battlefield Crystal: Carmae",
         "Slot": "Weapon",
-        "ItemEffect": "Critical Hit Rate & Attack Speed +1 & Additional Damage to Humans +3",
+        "ItemEffect": "Critical Hit Rate +1 & Attack Speed +1 & Additional Damage to Humans +3",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "Orange",
@@ -183,7 +183,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal - Viper",
         "Slot": "Gloves",
-        "ItemEffect": "Attack Speed & Casting Speed +1",
+        "ItemEffect": "Attack Speed +1 & Casting Speed +1",
         "Weight": 0.1,
 		"BreakChance": "Low",
         "Rarity": "Orange",
@@ -193,7 +193,7 @@ BDO.crystals = [
     {
         "Name": "Black Magic Crystal - Viper",
         "Slot": "Gloves",
-        "ItemEffect": "Attack Speed & Casting Speed +1 & Accuracy +2",
+        "ItemEffect": "Attack Speed +1 & Casting Speed +1 & Accuracy +2",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "Orange",
@@ -203,7 +203,7 @@ BDO.crystals = [
     {
         "Name": "Red Battlefield Crystal: Viper",
         "Slot": "Gloves",
-        "ItemEffect": "Attack Speed & Casting Speed +1 & Additional Damage to Humans +2",
+        "ItemEffect": "Attack Speed +1 & Casting Speed +1 & Additional Damage to Humans +2",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "Orange",
@@ -404,7 +404,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal of Enchantment - Intimidation",
         "Slot": "Helmet",
-        "ItemEffect": "Knockdown & Bound Resistance +25% & Evasion +3",
+        "ItemEffect": "Knockdown/Bound Resistance +25% & Evasion +3",
         "Weight": 0.1,
 		"BreakChance": "Low",
         "Rarity": "Yellow",
@@ -654,7 +654,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal of Nature - Adamantine",
         "Slot": "Shoes",
-        "ItemEffect": "Knockdown Resistance & Bound Resistance +25%",
+        "ItemEffect": "Knockdown/Bound Resistance +25%",
         "Weight": 0.1,
 		"BreakChance": "Low",
         "Rarity": "Yellow",
