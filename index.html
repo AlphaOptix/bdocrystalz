@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>BDO Crystalz</title>
+    <link rel="stylesheet" href="styles/bootswatch.night.min.css" />
     <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body ng-app="crystalApp">
@@ -14,12 +15,12 @@
                 <p>See something that's wrong? Create an <b>issue</b> or <b>pull request</b> on our <a target="_blank" href="https://github.com/AlphaOptix/crystaldb">Github</a>.</p>
         </div>
     </div>
-    <div class="row" style="margin-top: 10px;">
+    <div class="row" class="top-pad">
         <div class="col-md-2">
             <label>Rarity</label>
         </div>
         <div class="col-md-2">
-            <label>Socket Slot</label>
+            <label>Socket</label>
         </div>
         <div class="col-md-2">
             <label>Break Chance</label>
@@ -28,9 +29,9 @@
             <label>Effect</label>
         </div>
     </div>
-    <div class="row" style="margin-bottom: 15px;">
+    <div class="row" class="bottom-pad">
         <div class="col-md-2">
-            <select id="rarity" class="select-size" ng-model="cc.search.Rarity" style="width:100%">
+            <select class="filter-select" ng-model="cc.search.grade">
                 <option value="">All</option>
                 <option value="1">White</option>
                 <option value="2">Green</option>
@@ -40,11 +41,11 @@
             </select>
         </div>
         <div class="col-md-2">
-            <select id="slot" class="select-size" ng-model="cc.search.Slot" style="width:100%">
+            <select class="filter-select" ng-model="cc.search.socket">
                 <option value="">All</option>
                 <option value="Any">Any</option>
                 <option value="Weapon">Weapon</option>
-                <option value="Secondary">Secondary Weapon</option>
+                <option value="Secondary Weapon">Secondary Weapon</option>
                 <option value="Costume">Costume</option>
                 <option value="Helmet">Helmet</option>
                 <option value="Armor">Armor</option>
@@ -53,40 +54,40 @@
             </select>
         </div>
         <div class="col-md-2">
-            <select id="breakchance" class="select-size" ng-model="cc.search.BreakChance" style="width:100%">
+            <select class="filter-select" ng-model="cc.search.breakChance">
                 <option value="">All</option>
                 <option value="Low">Low</option>
                 <option value="High">High</option>
             </select>
         </div>
         <div class="col-md-2">
-            <select class="select-size" ng-model="cc.search.ItemEffect" ng-options="effect.value as effect.name for effect in cc.effects" style="width:100%"></select>
+            <select class="filter-select" ng-model="cc.search.effect" ng-options="effect.value as effect.name for effect in cc.effects"></select>
         </div>
 
     </div>
     <div class="row">
         <div class="col-md-12">
-            <table class="table-striped" style="width:100%;margin-bottom:100px;margin-top:25px;">
+            <table class="table-striped crystal-table">
                 <thead>
                 <tr>
                     <th width="5%"></th>
-                    <th width="40%">Name</th>
-                    <th>Item Effect</th>
+                    <th width="40%">Crystal</th>
+                    <th>Effect</th>
                     <th width="10%">Break Chance</th>
-                    <th width="10%">Socket Slot</th>
+                    <th width="15%">Socket</th>
                 </tr>
                 </thead>
-                <tbody id="tbodyT" ng-cloak>
-                    <tr ng-repeat="crystal in cc.crystals | crystal:cc.search | orderBy:['-Rarity','+Name'] as results track by crystal.ID">
-                        <td><img class="crystal-icon" ng-src="{{crystal.Image}}" style="margin-right:10px"/></td>
-                        <td ng-cloak><a class="item-name rarity-{{crystal.Rarity}}" target="_blank" ng-href="{{'http://bddatabase.net/us/item/'+crystal.ID}}">{{crystal.Name}}</a></td>
-                        <td ng-cloak><p ng-bind-html="crystal.ItemEffect | unsafe"></p></td>
-                        <td ng-cloak>{{crystal.BreakChance}}</td>
-                        <td ng-cloak>{{crystal.Slot}}</td>
+                <tbody ng-cloak>
+                    <tr ng-repeat="crystal in cc.crystals | crystal:cc.search | orderBy:['-grade','+name'] as results track by crystal.id">
+                        <td><img class="crystal-icon" ng-src="{{crystal.icon}}" /></td>
+                        <td ng-cloak><a class="crystal-name rarity-{{crystal.grade}}" target="_blank" ng-href="{{'http://bddatabase.net/us/item/'+crystal.id}}">{{crystal.name}}</a></td>
+                        <td ng-cloak><p ng-bind-html="crystal.effect | unsafe"></p></td>
+                        <td ng-cloak>{{crystal.breakChance}}</td>
+                        <td ng-cloak>{{crystal.socket}}</td>
                     </tr>
                     <tr ng-cloak ng-if="results.length == 0">
                         <td></td>
-                        <td colspan="4" style="padding:10px 0"><b>No Results Found...</b></td>
+                        <td colspan="4" class="top-bottom-pad"><b>No Results Found...</b></td>
                     </tr>
                 </tbody>
             </table>
