@@ -21,13 +21,16 @@
             <label>Socket Slot</label>
         </div>
         <div class="col-md-2">
+            <label>Break Chance</label>
+        </div>
+        <div class="col-md-2">
             <label>Effect</label>
         </div>
     </div>
     <div class="row" style="margin-bottom: 15px;">
         <div class="col-md-2">
             <select id="rarity" class="select-size" ng-model="cc.search.Rarity" style="width:100%">
-                <option value="">Any</option>
+                <option value="">All</option>
                 <option value="White">White</option>
                 <option value="Green">Green</option>
                 <option value="Blue">Blue</option>
@@ -38,12 +41,20 @@
         <div class="col-md-2">
             <select id="slot" class="select-size" ng-model="cc.search.Slot" style="width:100%">
                 <option value="">All</option>
+                <option value="Any">Any</option>
                 <option value="Weapon">Weapon</option>
                 <option value="Secondary">Secondary Weapon</option>
                 <option value="Helmet">Helmet</option>
                 <option value="Armor">Armor</option>
                 <option value="Gloves">Gloves</option>
                 <option value="Shoes">Shoes</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <select id="breakchance" class="select-size" ng-model="cc.search.BreakChance" style="width:100%">
+                <option value="">All</option>
+                <option value="Low">Low</option>
+                <option value="High">High</option>
             </select>
         </div>
         <div class="col-md-2">
@@ -59,6 +70,7 @@
                     <th width="5%"></th>
                     <th width="40%">Name</th>
                     <th>Item Effect</th>
+                    <th>Break Chance</th>
                     <th width="10%">Socket Slot</th>
                 </tr>
                 </thead>
@@ -67,6 +79,7 @@
                         <td><img class="crystal-icon" ng-src="{{crystal.Image}}" style="margin-right:10px"/></td>
                         <td ng-cloak><a class="item-name {{crystal.Rarity}}" ng-href="{{'http://bddatabase.net/us/item/'+crystal.ID}}">{{crystal.Name}}</a></td>
                         <td ng-cloak><p ng-bind-html="crystal.ItemEffect"></p></td>
+                        <td ng-cloak>{{crystal.BreakChance}}</td>
                         <td ng-cloak>{{crystal.Slot}}</td>
                     </tr>
                 </tbody>
