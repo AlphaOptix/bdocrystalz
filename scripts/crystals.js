@@ -66,7 +66,7 @@ BDO.crystals = [
     {
         "Name": "Red Battlefield Crystal: Carmae",
         "Slot": "Weapon",
-        "ItemEffect": "Critical Hit Rate & Attack Speed +1 & Human Damage +3",
+        "ItemEffect": "Critical Hit Rate & Attack Speed +1 & Additional Damage to Humans +3",
         "Weight": 0.1,
         "Rarity": "Orange",
         "ID": "15638",
@@ -75,7 +75,7 @@ BDO.crystals = [
     {
         "Name": "Red Battlefield Crystal: Power",
         "Slot": "Weapon",
-        "ItemEffect": "Attack +5 & Human Damage +2",
+        "ItemEffect": "Attack +5 & Additional Damage to Humans +2",
         "Weight": 0.1,
         "Rarity": "Orange",
         "ID": "15639",
@@ -102,7 +102,7 @@ BDO.crystals = [
     {
         "Name": "Red Spirit Crystal",
         "Slot": "Secondary",
-        "ItemEffect": "MaxHP +100 & Attack +5 & Human Damage +3",
+        "ItemEffect": "MaxHP +100 & Attack +5 & Additional Damage to Humans +3",
         "Weight": 0.1,
         "Rarity": "Orange",
         "ID": "15633",
@@ -129,7 +129,7 @@ BDO.crystals = [
     {
         "Name": "Red Battlefield Crystal: Harsha",
         "Slot": "Helmet",
-        "ItemEffect": "Max HP +50 & HP Recovery +5 & Human Damage +2",
+        "ItemEffect": "Max HP +50 & HP Recovery +5 & Additional Damage to Humans +2",
         "Weight": 0.1,
         "Rarity": "Orange",
         "ID": "15634",
@@ -156,7 +156,7 @@ BDO.crystals = [
     {
         "Name": "Red Battlefield Crystal: Comeliness",
         "Slot": "Armor",
-        "ItemEffect": "Max HP +100 & Weight Limit +20LT & Human Damage +2",
+        "ItemEffect": "Max HP +100 & Weight Limit +20LT & Additional Damage to Humans +2",
         "Weight": 0.1,
         "Rarity": "Orange",
         "ID": "15635",
@@ -183,7 +183,7 @@ BDO.crystals = [
     {
         "Name": "Red Battlefield Crystal: Viper",
         "Slot": "Gloves",
-        "ItemEffect": "Attack Speed & Casting Speed +1 & Human Damage +2",
+        "ItemEffect": "Attack Speed & Casting Speed +1 & Additional Damage to Humans +2",
         "Weight": 0.1,
         "Rarity": "Orange",
         "ID": "15636",
@@ -210,7 +210,7 @@ BDO.crystals = [
     {
         "Name": "Red Battlefield Crystal: Hysteria",
         "Slot": "Shoes",
-        "ItemEffect": "Weight Limit +20LT & Movement Speed +1 & Human Damage +2",
+        "ItemEffect": "Weight Limit +20LT & Movement Speed +1 & Additional Damage to Humans +2",
         "Weight": 0.1,
         "Rarity": "Orange",
         "ID": "15637",
@@ -220,7 +220,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal of Crimson Flame - Carnage",
         "Slot": "Weapon",
-        "ItemEffect": "Beast Damage +4",
+        "ItemEffect": "Additional Damage to Beasts +4",
         "Weight": 0.1,
         "Rarity": "Yellow",
         "ID": "15609",
@@ -229,7 +229,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal of Crimson Flame - Demihuman",
         "Slot": "Weapon",
-        "ItemEffect": "Demihuman Damage +4",
+        "ItemEffect": "Additional Damage to Demihumans +4",
         "Weight": 0.1,
         "Rarity": "Yellow",
         "ID": "15607",
@@ -238,7 +238,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal of Crimson Flame - Human",
         "Slot": "Weapon",
-        "ItemEffect": "Human Damage +4",
+        "ItemEffect": "Additional Damage to Humans +4",
         "Weight": 0.1,
         "Rarity": "Yellow",
         "ID": "15608",
@@ -256,7 +256,7 @@ BDO.crystals = [
     {
         "Name": "Black Magic Crystal - Carnage",
         "Slot": "Weapon",
-        "ItemEffect": "Demihuman Damage +2 & Ignore All Resistane +10%",
+        "ItemEffect": "Additional Damage to Demihumans +2 & Ignore All Resistane +10%",
         "Weight": 0.1,
         "Rarity": "Yellow",
         "ID": "15203",
@@ -265,7 +265,7 @@ BDO.crystals = [
     {
         "Name": "Black Magic Crystal - Carnage",
         "Slot": "Weapon",
-        "ItemEffect": "Human Damage +2 & Ignore All Resistane +10%",
+        "ItemEffect": "Additional Damage to Humans +2 & Ignore All Resistances +10%",
         "Weight": 0.1,
         "Rarity": "Yellow",
         "ID":"15204",
@@ -274,7 +274,7 @@ BDO.crystals = [
     {
         "Name": "Black Magic Crystal - Carnage",
         "Slot": "Weapon",
-        "ItemEffect": "Beast Damage +2 & Ignore All Resistane +10%",
+        "ItemEffect": "Additional Damage to Beasts +2 & Ignore All Resistances +10%",
         "Weight": 0.1,
         "Rarity": "Yellow",
         "ID":"15205",
@@ -697,7 +697,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal of Infinity - Carnage",
         "Slot": "Weapon",
-        "ItemEffect": "Demihuman Damage +2",
+        "ItemEffect": "Additional Damage to Demihumans +2",
         "Weight": 0.1,
         "Rarity": "Blue",
         "ID": "15103",
@@ -706,7 +706,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal of Infinity - Carnage",
         "Slot": "Weapon",
-        "ItemEffect": "Human Damage +2",
+        "ItemEffect": "Additional Damage to Humans +2",
         "Weight": 0.1,
         "Rarity": "Blue",
         "ID": "15104",
@@ -716,7 +716,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal of Infinity - Carnage",
         "Slot": "Weapon",
-        "ItemEffect": "Beast Damage +2",
+        "ItemEffect": "Additional Damage to Beasts +2",
         "Weight": 0.1,
         "Rarity": "Blue",
         "ID": "15105",
@@ -1113,7 +1113,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal of Crimson Flame - Carnage",
         "Slot": "Weapon",
-        "ItemEffect": "Demihuman Damage +1",
+        "ItemEffect": "Additional Damage to Demihumans +1",
         "Weight": 0.1,
         "Rarity": "Green",
         "ID": "15003",
@@ -1122,7 +1122,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal of Crimson Flame - Carnage",
         "Slot": "Weapon",
-        "ItemEffect": "Human Damage +1",
+        "ItemEffect": "Additional Damage to Humans +1",
         "Weight": 0.1,
         "Rarity": "Green",
         "ID": "15004",
@@ -1131,7 +1131,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal of Crimson Flame - Carnage",
         "Slot": "Weapon",
-        "ItemEffect": "Beast Damage +1",
+        "ItemEffect": "Additional Damage to Beasts +1",
         "Weight": 0.1,
         "Rarity": "Green",
         "ID": "15005",
@@ -1338,7 +1338,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal of Abundance - Relaxation",
         "Slot": "Any",
-        "ItemEffect": "Additional Damage agaunst 'Ferocious' Monsters +1",
+        "ItemEffect": "Additional Damage Against 'Ferocious' Monsters +1",
         "Weight": 0.1,
         "Rarity": "Green",
         "ID": "15033",
