@@ -10,15 +10,26 @@ angular
             for(var j = 0; j < itemEffects.length; j++){
                 var plusIndex = itemEffects[j].indexOf('+');
                 var effect = itemEffects[j].substr(0,plusIndex).trim();
-                if(effect!=""&&vm.effects.indexOf(effect)==-1){
-                    vm.effects.push(effect);
+                if(effect!=""&&vm.effects.map(function(e){return e.name}).indexOf(effect)==-1){
+                    vm.effects.push({name:effect, value:effect});
                 }
             }
             crystals[i].ItemEffect = crystals[i].ItemEffect.replace(/\s\&\s/g, '<br />');
         }
-        vm.effects.sort();
+        vm.effects.sort(sortByName);
+        vm.effects.unshift({name:"All", value:""});
         vm.crystals = crystals;
         vm.search = {};
+        vm.search.ItemEffect = "";
+
+        function sortByName(a,b){
+            if (a.name < b.name)
+                return -1;
+            else if (a.name > b.name)
+                return 1;
+            else
+                return 0;
+        }
     })
     .filter('crystal', function(){
         return function(input, compares) {
