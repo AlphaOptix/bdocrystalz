@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-md-12">
                 <h2>Black Desert Crystal DB</h2>
-                <p>A small database for crystals, most other databases lack sort functions. You are able to sort crystals by rarity and socket slot</p>
+                <p>A small database for crystals, most other databases lack filter functions. You are able to filter crystals by rarity, slot, and effects.</p>
         </div>
     </div>
     <div class="row" style="margin-top: 10px;">
@@ -69,11 +69,11 @@
                 </tr>
                 </thead>
                 <tbody id="tbodyT">
-                    <tr ng-repeat="crystal in cc.crystals | filter:cc.search:{Slot:'any'}">
-                        <td><img ng-src="{{crystal.Image}}" style="margin-right:10px"/></td>
-                        <td><a style="color:{{crystal.Rarity}};font-weight:bold;text-decoration:none" ng-href="{{'http://bddatabase.net/us/item/'+crystal.ID}}">{{crystal.Name}}</a></td>
-                        <td>{{crystal.ItemEffect}}</td>
-                        <td>{{crystal.Slot}}</td>
+                    <tr ng-repeat="crystal in cc.crystals | filter:cc.search">
+                        <td><img class="crystal-icon" ng-src="{{crystal.Image}}" style="margin-right:10px"/></td>
+                        <td ng-cloak><a class="item-name {{crystal.Rarity}}" ng-href="{{'http://bddatabase.net/us/item/'+crystal.ID}}">{{crystal.Name}}</a></td>
+                        <td ng-cloak><p ng-bind-html="crystal.ItemEffect"></p></td>
+                        <td ng-cloak>{{crystal.Slot}}</td>
                     </tr>
                 </tbody>
             </table>
@@ -82,6 +82,7 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-sanitize.min.js"></script>
 <script src="scripts/crystals.js"></script>
 <script src="scripts/app.js"></script>
 </body>
