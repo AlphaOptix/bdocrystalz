@@ -71,7 +71,7 @@
                     <th width="5%"></th>
                     <th width="40%">Name</th>
                     <th>Item Effect</th>
-                    <th>Break Chance</th>
+                    <th width="10%">Break Chance</th>
                     <th width="10%">Socket Slot</th>
                 </tr>
                 </thead>
@@ -83,7 +83,7 @@
                         <td ng-cloak>{{crystal.BreakChance}}</td>
                         <td ng-cloak>{{crystal.Slot}}</td>
                     </tr>
-                    <tr ng-if="results.length == 0">
+                    <tr ng-show="results.length == 0" style="display:none">
                         <td></td>
                         <td colspan="4" style="padding:10px 0"><b>No Results Found...</b></td>
                     </tr>
