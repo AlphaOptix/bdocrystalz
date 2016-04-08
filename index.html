@@ -31,11 +31,11 @@
         <div class="col-md-2">
             <select id="rarity" class="select-size" ng-model="cc.search.Rarity" style="width:100%">
                 <option value="">All</option>
-                <option value="White">White</option>
-                <option value="Green">Green</option>
-                <option value="Blue">Blue</option>
-                <option value="Yellow">Yellow</option>
-                <option value="Orange">Orange</option>
+                <option value="1">White</option>
+                <option value="2">Green</option>
+                <option value="3">Blue</option>
+                <option value="4">Yellow</option>
+                <option value="5">Orange</option>
             </select>
         </div>
         <div class="col-md-2">
@@ -44,6 +44,7 @@
                 <option value="Any">Any</option>
                 <option value="Weapon">Weapon</option>
                 <option value="Secondary">Secondary Weapon</option>
+                <option value="Costume">Costume</option>
                 <option value="Helmet">Helmet</option>
                 <option value="Armor">Armor</option>
                 <option value="Gloves">Gloves</option>
@@ -75,12 +76,16 @@
                 </tr>
                 </thead>
                 <tbody id="tbodyT">
-                    <tr ng-repeat="crystal in cc.crystals | filter:cc.search">
+                    <tr ng-repeat="crystal in cc.crystals | crystal:cc.search | orderBy:['-Rarity','+Name'] as results track by crystal.ID">
                         <td><img class="crystal-icon" ng-src="{{crystal.Image}}" style="margin-right:10px"/></td>
-                        <td ng-cloak><a class="item-name {{crystal.Rarity}}" ng-href="{{'http://bddatabase.net/us/item/'+crystal.ID}}">{{crystal.Name}}</a></td>
-                        <td ng-cloak><p ng-bind-html="crystal.ItemEffect"></p></td>
+                        <td ng-cloak><a class="item-name rarity-{{crystal.Rarity}}" ng-href="{{'http://bddatabase.net/us/item/'+crystal.ID}}">{{crystal.Name}}</a></td>
+                        <td ng-cloak><p ng-bind-html="crystal.ItemEffect | unsafe"></p></td>
                         <td ng-cloak>{{crystal.BreakChance}}</td>
                         <td ng-cloak>{{crystal.Slot}}</td>
+                    </tr>
+                    <tr ng-if="results.length == 0">
+                        <td></td>
+                        <td colspan="4" style="padding:10px 0"><b>No Results Found...</b></td>
                     </tr>
                 </tbody>
             </table>

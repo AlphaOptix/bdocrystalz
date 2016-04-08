@@ -27,19 +27,19 @@ p {
 .item-name:hover{
     text-decoration:underline !important;
 }
-.Orange {
+.rarity-5 {
     color: #d36300;
 }
-.Yellow {
+.rarity-4 {
     color: #f6c232;
 }
-.Green {
+.rarity-2 {
     color: #5ff369;
 }
-.Blue {
+.rarity-3 {
     color: #0391c4;
 }
-.White {
+.rarity-1 {
     color: #fff;
 }
 .select-size {
