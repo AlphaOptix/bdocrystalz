@@ -324,7 +324,7 @@ BDO.crystals = [
     {
         "Name": "Black Magic Crystal - Precision",
         "Slot": "Weapon",
-        "ItemEffect": "All Accuracy +2 & Ignore All Resistances +10%",
+        "ItemEffect": "Accuracy +2 & Ignore All Resistances +10%",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "4",
@@ -394,7 +394,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal of Enchantment - Agility",
         "Slot": "Helmet",
-        "ItemEffect": "All Evasion +5",
+        "ItemEffect": "Evasion +5",
         "Weight": 0.1,
 		"BreakChance": "Low",
         "Rarity": "4",
@@ -624,7 +624,7 @@ BDO.crystals = [
     {
         "Name": "Black Magic Crystal - Precision",
         "Slot": "Gloves",
-        "ItemEffect": "All Accuracy +2 & Grapple Resistance +5%",
+        "ItemEffect": "Accuracy +2 & Grapple Resistance +5%",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "4",
@@ -835,7 +835,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal of Infinity - Precision",
         "Slot": "Weapon",
-        "ItemEffect": "All Accuracy +2",
+        "ItemEffect": "Accuracy +2",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "3",
@@ -1118,7 +1118,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal of Infinity - Precision",
         "Slot": "Gloves",
-        "ItemEffect": "All Accuracy +2",
+        "ItemEffect": "Accuracy +2",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "3",
@@ -1278,7 +1278,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal of Crimson Flame - Precision",
         "Slot": "Weapon",
-        "ItemEffect": "All Accuracy +1",
+        "ItemEffect": "Accuracy +1",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "2",
@@ -1398,7 +1398,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal of the Sun - Precision",
         "Slot": "Gloves",
-        "ItemEffect": "All Accuracy +1",
+        "ItemEffect": "Accuracy +1",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "2",

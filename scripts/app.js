@@ -44,7 +44,14 @@ angular
 
             if (compares.ItemEffect&&compares.ItemEffect != "") {
                 out = out.filter(function (value) {
-                    return value.ItemEffect.toLowerCase().indexOf(compares.ItemEffect.toLowerCase() + " +") != -1;
+                    var effects = value.ItemEffect.split('<br />');
+                    var isGood = false;
+                    for(var i = 0;i<effects.length; i++){
+                        if(effects[i].toLowerCase().indexOf(compares.ItemEffect.toLowerCase() + " +") == 0){
+                            isGood = true;
+                        }
+                    }
+                    return isGood;
                 });
             }
 
