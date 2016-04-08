@@ -113,7 +113,7 @@ BDO.crystals = [
     {
         "Name": "Red Spirit Crystal",
         "Slot": "Secondary",
-        "ItemEffect": "MaxHP +100 & Attack +5 & Additional Damage to Humans +3",
+        "ItemEffect": "Max HP +100 & Attack +5 & Additional Damage to Humans +3",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "5",
@@ -284,7 +284,7 @@ BDO.crystals = [
     {
         "Name": "Black Magic Crystal - Carnage",
         "Slot": "Weapon",
-        "ItemEffect": "Additional Damage to Demihumans +2 & Ignore All Resistane +10%",
+        "ItemEffect": "Additional Damage to Demihumans +2 & Ignore All Resistances +10%",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "4",
@@ -314,7 +314,7 @@ BDO.crystals = [
     {
         "Name": "Black Magic Crystal - Power",
         "Slot": "Weapon",
-        "ItemEffect": "Attack +2 & Ignore All Resistance +10%",
+        "ItemEffect": "Attack +2 & Ignore All Resistances +10%",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "4",
@@ -324,7 +324,7 @@ BDO.crystals = [
     {
         "Name": "Black Magic Crystal - Precision",
         "Slot": "Weapon",
-        "ItemEffect": "All Accuracy +2 & Ignore All Resistance +10%",
+        "ItemEffect": "All Accuracy +2 & Ignore All Resistances +10%",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "4",
@@ -694,7 +694,7 @@ BDO.crystals = [
     {
         "Name": "Black Magic Crystal - Ascension",
         "Slot": "Shoes",
-        "ItemEffect": "Jump +35 & Knockback/Floating Resistance +10%",
+        "ItemEffect": "Jump Height +35 & Knockback/Floating Resistance +10%",
         "Weight": 0.1,
 		"BreakChance": "High",
         "Rarity": "4",
@@ -1658,7 +1658,7 @@ BDO.crystals = [
     {
         "Name": "Breakthrough Crystal: Critical Hit",
         "Slot": "Costume",
-        "ItemEffect": "Critical Hit Limit +1",
+        "ItemEffect": "Critical Hit Rate Limit +1",
         "Weight": 0.1,
         "BreakChance": "High",
         "Rarity": "5",

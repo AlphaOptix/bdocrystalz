@@ -1,15 +1,22 @@
-/**
- * Created by bwilhite on 4/7/16.
- */
 angular
     .module('crystalApp',['ngSanitize'])
     .controller('crystalCtrl',function(){
         var vm = this;
 
         var crystals = window.BDO.crystals;
+        vm.effects = [];
         for(var i = 0; i < crystals.length; i++){
+            var itemEffects = crystals[i].ItemEffect.split(' & ');
+            for(var j = 0; j < itemEffects.length; j++){
+                var plusIndex = itemEffects[j].indexOf('+');
+                var effect = itemEffects[j].substr(0,plusIndex).trim();
+                if(effect!=""&&vm.effects.indexOf(effect)==-1){
+                    vm.effects.push(effect);
+                }
+            }
             crystals[i].ItemEffect = crystals[i].ItemEffect.replace(/\s\&\s/g, '<br />');
         }
+        vm.effects.sort();
         vm.crystals = crystals;
         vm.search = {};
     })
@@ -37,7 +44,7 @@ angular
 
             if (compares.ItemEffect&&compares.ItemEffect != "") {
                 out = out.filter(function (value) {
-                    return value.ItemEffect.toLowerCase().indexOf(compares.ItemEffect.toLowerCase()) != -1;
+                    return value.ItemEffect.toLowerCase().indexOf(compares.ItemEffect.toLowerCase() + " +") != -1;
                 });
             }
 
