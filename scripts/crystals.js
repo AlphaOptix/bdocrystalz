@@ -23,7 +23,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal - Crimson Flame",
         "Slot": "Weapon",
-        "ItemEffect": "Critical Hit +2",
+        "ItemEffect": "Critical Hit Rate +2",
         "Weight": 0.1,
 		"BreakChance": "Low",
         "Rarity": "Orange",
