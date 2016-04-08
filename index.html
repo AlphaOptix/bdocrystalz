@@ -78,7 +78,7 @@
                 <tbody id="tbodyT" ng-cloak>
                     <tr ng-repeat="crystal in cc.crystals | crystal:cc.search | orderBy:['-Rarity','+Name'] as results track by crystal.ID">
                         <td><img class="crystal-icon" ng-src="{{crystal.Image}}" style="margin-right:10px"/></td>
-                        <td ng-cloak><a class="item-name rarity-{{crystal.Rarity}}" ng-href="{{'http://bddatabase.net/us/item/'+crystal.ID}}">{{crystal.Name}}</a></td>
+                        <td ng-cloak><a class="item-name rarity-{{crystal.Rarity}}" target="_blank" ng-href="{{'http://bddatabase.net/us/item/'+crystal.ID}}">{{crystal.Name}}</a></td>
                         <td ng-cloak><p ng-bind-html="crystal.ItemEffect | unsafe"></p></td>
                         <td ng-cloak>{{crystal.BreakChance}}</td>
                         <td ng-cloak>{{crystal.Slot}}</td>
