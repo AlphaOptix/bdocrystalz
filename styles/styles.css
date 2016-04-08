@@ -16,19 +16,19 @@ p {
     text-decoration:underline !important;
 }
 .rarity-5 {
-    color: #d36300;
+    color: #d36300 !important;
 }
 .rarity-4 {
-    color: #f6c232;
+    color: #f6c232 !important;
 }
 .rarity-2 {
-    color: #5ff369;
+    color: #5ff369 !important;
 }
 .rarity-3 {
-    color: #0391c4;
+    color: #0391c4 !important;
 }
 .rarity-1 {
-    color: #fff;
+    color: #fff !important;
 }
 .filter-select {
     width:100%;
