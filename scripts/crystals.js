@@ -384,7 +384,7 @@ BDO.crystals = [
     {
         "Name": "Magic Crystal - Temptation",
         "Slot": "Weapon",
-        "ItemEffect": "Attack SPeed +2 & Critical Hit Rate -1",
+        "ItemEffect": "Attack Speed +2 & Critical Hit Rate -1",
         "Weight": 0.1,
 		"BreakChance": "Low",
         "Rarity": "Yellow",
@@ -514,7 +514,7 @@ BDO.crystals = [
     {
         "Name": "Ancient Magic Crystal of Abundance - Resonance",
         "Slot": "Armor",
-        "ItemEffect": "Map MP/WP/SP +50 & MP/WP/SP Recovery +3",
+        "ItemEffect": "Max MP/WP/SP +50 & MP/WP/SP Recovery +3",
         "Weight": 0.1,
 		"BreakChance": "Low",
         "Rarity": "Yellow",
