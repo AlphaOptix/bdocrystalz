@@ -1464,7 +1464,7 @@ BDO.crystals = [
     {
         name: "Magic Crystal of Infinity - Ignore Knockdown Resistance",
         socket: "Secondary Weapon",
-        effect: "Knockdown/Bound Resistance +25% & Stun/Stiffness/Freezing Resistance +5%",
+        effect: "Ignore Knockdown Resistance +10%",
         breakChance: "High",
         grade: "3",
         id: "15152",
