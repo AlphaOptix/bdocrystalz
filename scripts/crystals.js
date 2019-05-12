@@ -969,7 +969,7 @@ BDO.crystals = [
         "name": "Magic Crystal of Nature - Endurance",
         "grade": "1",
         "socket": "Shoes",
-        "effect": "Stamina +100",
+        "effect": "Max Stamina +100",
         "breakChance": "High"
     },
     {
