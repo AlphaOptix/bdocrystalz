@@ -91,7 +91,7 @@
                 <tbody ng-cloak>
                     <tr ng-repeat="crystal in cc.crystals | crystal:cc.search | orderBy:['+name'] as results track by crystal.id">
                         <td><img class="crystal-icon" ng-src="{{crystal.icon}}" /></td>
-                        <td ng-cloak><a class="crystal-name rarity-{{crystal.grade}}" target="_blank" ng-href="{{'http://bddatabase.net/us/item/'+crystal.id}}">{{crystal.name}}</a></td>
+                        <td ng-cloak><a class="crystal-name rarity-{{crystal.grade}}" target="_blank" ng-href="{{'https://bdocodex.com/us/item/'+crystal.id}}">{{crystal.name}}</a></td>
                         <td ng-cloak><p ng-bind-html="crystal.effect | unsafe"></p></td>
                         <td ng-cloak>{{crystal.breakChance}}</td>
                         <td ng-cloak>{{crystal.socket}}</td>
