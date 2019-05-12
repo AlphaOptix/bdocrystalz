@@ -9,8 +9,9 @@ If you are uncomfortable doing a PR, you are welcome to open an [issue](https://
 ## Changelog
 - **5/11/2019 - Large Update**
   - Added Name Search functionality 
+  - Switched to bdocodex for links
   - Updated all crystal icons
-  - Renamed some properties to more tightly align with what is shown in-game
+  - Renamed some properties
     - Changed `Accuracy` to `All Accuracy`
     - Changed `AP` to `All AP`
     - Changed `Attack` to `All AP`
@@ -20,6 +21,8 @@ If you are uncomfortable doing a PR, you are welcome to open an [issue](https://
     - Changed `Ignore All Resistances` to `Ignore All Resistance`
     - Changed `Special Attack Evasion` to `Special Attack Evasion Rate`
     - Changed `Endurance` to `Max Stamina`
+    - Changed `Additional Damage Against Humans` and `Damage Against Humans` to `Additional Damage to Humans` 
+    - Changed `Additional Damage Against "Ferocious" Monsters` to `Additional Damage to "Ferocious" Monsters`
   - Changed Sockets
     - Magic Crystal of Crimson Flame - Carnage
       - `Weapon => Any`
