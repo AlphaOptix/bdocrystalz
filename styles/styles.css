@@ -15,24 +15,29 @@ p {
 .crystal-name:hover{
     text-decoration:underline !important;
 }
-.rarity-5 {
+.rarity-4 {
     color: #d36300 !important;
 }
-.rarity-4 {
+.rarity-3 {
     color: #f6c232 !important;
 }
 .rarity-2 {
-    color: #5ff369 !important;
-}
-.rarity-3 {
     color: #0391c4 !important;
 }
 .rarity-1 {
+    color: #5ff369 !important;
+}
+.rarity-0 {
     color: #fff !important;
 }
 .filter-select {
     width:100%;
     color: #000;
+}
+.filter-input {
+    width:100%;
+    color: #000;
+    padding: 0 5px;
 }
 .crystal-table {
     width:100%;
