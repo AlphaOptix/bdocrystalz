@@ -1311,7 +1311,7 @@ BDO.crystals = [
         "name": "Magic Crystal of Abundance - Relaxation",
         "grade": "1",
         "socket": "Any",
-        "effect": "Additional Damage Against \"Ferocious\" Monsters +1",
+        "effect": "Additional Damage to \"Ferocious\" Monsters +1",
         "breakChance": "High"
     },
     {
