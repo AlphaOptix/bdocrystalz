@@ -1014,7 +1014,7 @@ BDO.crystals = [
         "name": "HAN Magic Crystal - Gervish",
         "grade": "4",
         "socket": "Any",
-        "effect": "Combat EXP +1%, Skill EXP +1%, Max Weight Limit +15LT, , - 2 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, , - 4 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, Combat EXP +5%, Skill EXP +3%",
+        "effect": "Combat EXP +1%, Skill EXP +1%, Weight Limit +15LT, , - 2 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, , - 4 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, Combat EXP +5%, Skill EXP +3%",
         "breakChance": "High"
     },
     {
