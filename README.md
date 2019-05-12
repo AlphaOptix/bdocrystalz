@@ -22,6 +22,7 @@ If you are uncomfortable doing a PR, you are welcome to open an [issue](https://
     - Changed `Special Attack Evasion` to `Special Attack Evasion Rate`
     - Changed `Endurance` to `Max Stamina`
     - Changed `Additional Damage Against Humans` and `Damage Against Humans` to `Additional Damage to Humans` 
+    - Changed `Additional Damage Against "Ferocious" Monsters` to `Additional Damage to "Ferocious" Monsters`
   - Changed Sockets
     - Magic Crystal of Crimson Flame - Carnage
       - `Weapon => Any`
