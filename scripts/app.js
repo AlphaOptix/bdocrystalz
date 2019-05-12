@@ -6,7 +6,7 @@ angular
         var crystals = window.BDO.crystals;
         vm.effects = [];
         for(var i = 0; i < crystals.length; i++){
-            var effects = crystals[i].effect.split(' & ');
+            var effects = crystals[i].effect.split(', ');
             for(var j = 0; j < effects.length; j++){
                 var plusIndex = effects[j].indexOf('+');
                 var effect = effects[j].substr(0,plusIndex).trim();
@@ -14,7 +14,7 @@ angular
                     vm.effects.push({name:effect, value:effect});
                 }
             }
-            crystals[i].effect = crystals[i].effect.replace(/\s\&\s/g, '<br />');
+            crystals[i].effect = crystals[i].effect.replace(/\,\s/g, '<br />');
         }
         vm.effects.sort(sortByName);
         vm.effects.unshift({name:"All", value:""});
@@ -63,6 +63,12 @@ angular
                         }
                     }
                     return isGood;
+                });
+            }
+
+            if (compares.name&&compares.name != "") {
+                out = out.filter(function (value) {
+                    return value.name.toLowerCase().indexOf(compares.name.toLowerCase()) != -1;
                 });
             }
 

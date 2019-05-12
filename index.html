@@ -22,6 +22,9 @@
     </div>
     <div class="row" class="top-pad">
         <div class="col-md-2">
+            <label>Name</label>
+        </div>
+        <div class="col-md-2">
             <label>Grade</label>
         </div>
         <div class="col-md-2">
@@ -36,13 +39,16 @@
     </div>
     <div class="row" class="bottom-pad">
         <div class="col-md-2">
+            <input placeholder="Search" class="filter-input" ng-model="cc.search.name" />
+        </div>
+        <div class="col-md-2">
             <select class="filter-select" ng-model="cc.search.grade">
                 <option value="">All</option>
-                <option value="1">White</option>
-                <option value="2">Green</option>
-                <option value="3">Blue</option>
-                <option value="4">Yellow</option>
-                <option value="5">Orange</option>
+                <option value="0">White</option>
+                <option value="1">Green</option>
+                <option value="2">Blue</option>
+                <option value="3">Yellow</option>
+                <option value="4">Orange</option>
             </select>
         </div>
         <div class="col-md-2">
@@ -51,7 +57,6 @@
                 <option value="Any">Any</option>
                 <option value="Weapon">Weapon</option>
                 <option value="Secondary Weapon">Secondary Weapon</option>
-                <option value="Costume">Costume</option>
                 <option value="Helmet">Helmet</option>
                 <option value="Armor">Armor</option>
                 <option value="Gloves">Gloves</option>
@@ -61,9 +66,7 @@
         <div class="col-md-2">
             <select class="filter-select" ng-model="cc.search.breakChance">
                 <option value="">All</option>
-                <option value="None">None</option>
                 <option value="Low">Low</option>
-                <option value="Average">Average</option>
                 <option value="High">High</option>
                 <option value="Very High">Very High</option>
             </select>
@@ -86,7 +89,7 @@
                 </tr>
                 </thead>
                 <tbody ng-cloak>
-                    <tr ng-repeat="crystal in cc.crystals | crystal:cc.search | orderBy:['-grade','+name'] as results track by crystal.id">
+                    <tr ng-repeat="crystal in cc.crystals | crystal:cc.search | orderBy:['+name'] as results track by crystal.id">
                         <td><img class="crystal-icon" ng-src="{{crystal.icon}}" /></td>
                         <td ng-cloak><a class="crystal-name rarity-{{crystal.grade}}" target="_blank" ng-href="{{'http://bddatabase.net/us/item/'+crystal.id}}">{{crystal.name}}</a></td>
                         <td ng-cloak><p ng-bind-html="crystal.effect | unsafe"></p></td>
