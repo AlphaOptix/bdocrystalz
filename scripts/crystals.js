@@ -1455,7 +1455,7 @@ BDO.crystals = [
         "name": "Red Battlefield Crystal - Addis",
         "grade": "4",
         "socket": "Weapon",
-        "effect": "Critical Hit +1, Casting Speed +1, Additional Damage Against Humans +8",
+        "effect": "Critical Hit +1, Casting Speed +1, Additional Damage to Humans +3",
         "breakChance": "High"
     },
     {
