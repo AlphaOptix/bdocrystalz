@@ -1014,7 +1014,7 @@ BDO.crystals = [
         "name": "HAN Magic Crystal - Gervish",
         "grade": "4",
         "socket": "Any",
-        "effect": "- 2 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, , - 4 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, Combat EXP +5%, Skill EXP +3%",
+        "effect": "Combat EXP +1%, Skill EXP +1%, Max Weight Limit +15LT, , - 2 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, , - 4 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, Combat EXP +5%, Skill EXP +3%",
         "breakChance": "High"
     },
     {
@@ -1077,7 +1077,7 @@ BDO.crystals = [
         "name": "HAN Magic Crystal - Hoom",
         "grade": "4",
         "socket": "Any",
-        "effect": "- 2 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, , - 4 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, All Accuracy +8, All Resistance +3%",
+        "effect": "All Accuracy +2, All Resistance +1, Max HP +30, , - 2 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, , - 4 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, All Accuracy +8, All Resistance +3%",
         "breakChance": "High"
     },
     {
@@ -1086,7 +1086,7 @@ BDO.crystals = [
         "name": "HAN Magic Crystal - Macalod",
         "grade": "4",
         "socket": "Any",
-        "effect": "- 2 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, , - 4 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, Combat EXP +5%, Ignore All Resistance +3%",
+        "effect": "Combat EXP +1%, Ignore All Resistance +1%, Max Stamina +20, , - 2 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, , - 4 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, Combat EXP +5%, Ignore All Resistance +3%",
         "breakChance": "High"
     },
     {
