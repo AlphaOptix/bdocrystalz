@@ -15,6 +15,7 @@ If you are uncomfortable doing a PR, you are welcome to open an [issue](https://
     - Changed `AP` to `All AP`
     - Changed `Attack` to `All AP`
     - Changed `Damage Reduction` to `All Damage Reduction`
+    - Changed `Evasion` to `All Evasion`
     - Changed `Critical Hit Rate` to `Critical Hit`
     - Changed `Ignore All Resistances` to `Ignore All Resistance`
     - Changed `Special Attack Evasion` to `Special Attack Evasion Rate`
