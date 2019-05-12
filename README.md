@@ -9,6 +9,7 @@ If you are uncomfortable doing a PR, you are welcome to open an [issue](https://
 ## Changelog
 - **5/11/2019 - Large Update**
   - Added Name Search functionality 
+  - Switched to bdocodex for links
   - Updated all crystal icons
   - Renamed some properties to more tightly align with what is shown in-game
     - Changed `Accuracy` to `All Accuracy`
