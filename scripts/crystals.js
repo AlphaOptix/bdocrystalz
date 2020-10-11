@@ -483,7 +483,7 @@ BDO.crystals = [
         "name": "Black Magic Crystal - Precision",
         "grade": "3",
         "socket": "Weapon",
-        "effect": "All Accuracy +2, Ignore All Resistance +10%",
+        "effect": "All Accuracy +8, Ignore All Resistance +10%",
         "breakChance": "High"
     },
     {
@@ -555,7 +555,7 @@ BDO.crystals = [
         "name": "Black Magic Crystal - Precision",
         "grade": "3",
         "socket": "Gloves",
-        "effect": "All Accuracy +2, Grapple Resistance +5%",
+        "effect": "All Accuracy +8, Grapple Resistance +5%",
         "breakChance": "High"
     },
     {
