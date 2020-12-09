@@ -7,6 +7,12 @@ If you would like to make any changes you are welcome to open a [pull request](h
 If you are uncomfortable doing a PR, you are welcome to open an [issue](https://github.com/AlphaOptix/bdocrystalz/issues) and we will get to it as soon as we can. 
 
 ## Changelog
+- **12/9/2020**
+  - Added
+    - Crystal of Elkarr
+    - Ah'krad Crystal
+    - Olucas Crystal
+    - Rebellious Spirit Crystal
 - **6/4/2019**
   - Added
     - Corrupted Magic Crystal
