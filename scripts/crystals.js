@@ -1590,7 +1590,7 @@ BDO.crystals = [
         "name": "Ah'krad Crystal",
         "grade": "4",
         "socket": "Awakening Weapon",
-        "effect": "All Accuracy +3, Extra AP against Monsters +5",
+        "effect": "All Accuracy +3, Extra AP Against Monsters +5",
         "breakChance": "High"
     },
     {
