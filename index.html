@@ -23,25 +23,10 @@
     <div class="row" class="top-pad">
         <div class="col-md-2">
             <label>Name</label>
-        </div>
-        <div class="col-md-2">
-            <label>Grade</label>
-        </div>
-        <div class="col-md-2">
-            <label>Socket</label>
-        </div>
-        <div class="col-md-2">
-            <label>Break Chance</label>
-        </div>
-        <div class="col-md-2">
-            <label>Effect</label>
-        </div>
-    </div>
-    <div class="row" class="bottom-pad">
-        <div class="col-md-2">
             <input placeholder="Search" class="filter-input" ng-model="cc.search.name" />
         </div>
         <div class="col-md-2">
+            <label>Grade</label>
             <select class="filter-select" ng-model="cc.search.grade">
                 <option value="">All</option>
                 <option value="0">White</option>
@@ -52,6 +37,7 @@
             </select>
         </div>
         <div class="col-md-2">
+            <label>Socket</label>
             <select class="filter-select" ng-model="cc.search.socket">
                 <option value="">All</option>
                 <option value="Any">Any</option>
@@ -65,6 +51,7 @@
             </select>
         </div>
         <div class="col-md-2">
+            <label>Break Chance</label>
             <select class="filter-select" ng-model="cc.search.breakChance">
                 <option value="">All</option>
                 <option value="Low">Low</option>
@@ -73,9 +60,9 @@
             </select>
         </div>
         <div class="col-md-2">
+            <label>Effect</label>
             <select class="filter-select" ng-model="cc.search.effect" ng-options="effect.value as effect.name for effect in cc.effects"></select>
         </div>
-
     </div>
     <div class="row">
         <div class="col-md-12">
