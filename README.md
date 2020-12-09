@@ -10,6 +10,9 @@ If you are uncomfortable doing a PR, you are welcome to open an [issue](https://
 - **12/9/2020**
   - Added
     - Crystal of Elkarr
+    - Ah'krad Crystal
+    - Olucas Crystal
+    - Rebellious Spirit Crystal
 - **6/4/2019**
   - Added
     - Corrupted Magic Crystal
