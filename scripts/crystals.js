@@ -556,7 +556,6 @@ BDO.crystals = [
         "grade": "3",
         "socket": "Gloves",
         "effect": "All Accuracy +8, Grapple Resistance +5%",
-
         "breakChance": "High"
     },
     {
