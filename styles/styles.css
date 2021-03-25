@@ -5,6 +5,46 @@
 p {
     margin: 10.5px 0;
 }
+.filter-select {
+    width:100%;
+    color: #000;
+}
+.filter-input {
+    width:100%;
+    color: #000;
+    padding: 0 5px;
+}
+.crystal-table {
+    width:100%;
+    margin-bottom:100px;
+    margin-top:25px;
+}
+.top-pad {
+    margin-top: 10px;
+}
+.bottom-pad {
+    margin-bottom: 15px;
+}
+.top-bottom-pad {
+    padding:10px 0;
+}
+
+
+/* vue */
+#app {
+    width: 100%;
+}
+.cards {
+    display:flex;
+    width: 1300px;
+    flex-wrap: wrap;
+}
+.card {
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
 .crystal-icon {
     margin: 10px 10px 10px 5px;
 }
@@ -30,26 +70,60 @@ p {
 .rarity-0 {
     color: #fff !important;
 }
-.filter-select {
-    width:100%;
-    color: #000;
+.info {
+    margin: 0 0 10px 10px;
 }
-.filter-input {
-    width:100%;
-    color: #000;
-    padding: 0 5px;
+.effect {
+    padding: 10px 0;
 }
-.crystal-table {
-    width:100%;
-    margin-bottom:100px;
-    margin-top:25px;
-}
-.top-pad {
-    margin-top: 10px;
-}
-.bottom-pad {
-    margin-bottom: 15px;
-}
-.top-bottom-pad {
-    padding:10px 0;
+
+@media screen and (max-width: 444px) {
+    thead tr {
+        position: absolute;
+        top: -9999em;
+        left: -9999em;
+    }
+
+    tr {
+        padding: 10px 0;
+    }
+
+    tr + tr {
+        margin-top: 1.5rem;
+    }
+
+    td {
+        border: none;
+        display: block;
+        position: relative;
+        padding: 0 0 10px 10px !important;
+    }
+    
+    td:before {
+        content: attr(data-label);
+        display: block;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    td.icon {
+        margin-top: 10px;
+        padding-bottom: 0 !important;
+    }
+
+    .crystal-icon { 
+        margin-bottom: 0 !important;
+    }
+    
+    td.name {
+        padding-top: 0 !important;
+    }
+
+    .crystal-icon {
+        margin-top: 0px;
+    }
+
+    td.socket {
+        margin-bottom: 10px;
+    }
 }
