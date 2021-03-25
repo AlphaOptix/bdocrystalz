@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="OHxSee26XiWQQLHdqw1hDvPq3pVMNFXKO_MVjh1j454" />
+    <title>BDO Crystalz - Black Desert Online Crystal Reference</title>
+    <link rel="stylesheet" href="styles/bootswatch.night.min.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                    <h2>BDO Crystalz</h2>
+                    <h4>Black Desert Online Crystal Reference</h4>
+                    <br />
+                    <p>Need to know if there is an AP crystal for your offhand weapon? Now you can find out!</p>
+                    <p>This is a reference for Black Desert Online items called crystals. Crystals are used to slot into specific gear pieces in order to give you some added effects. With this site, you can easily find which crystals suit your specific needs by filtering by the crystal's <em>grade</em>, <em>the effects it grants</em>, <em>which slot it goes in</em>, and <em>how often it is likely to break when you die.</em></p>
+                    <p>See something that's wrong? Have a suggestion for new features? Create an <b>issue</b> or <b>pull request</b> on our <a target="_blank" href="https://github.com/AlphaOptix/bdocrystalz">Github</a>.</p>
+                    <br />
+            </div>
+        </div>
+        <div class="row" class="top-pad">
+            <div id="app">
+                <table class="table-striped crystal-table">
+                    <thead>
+                    <tr>
+                        <th width="5%"></th>
+                        <th width="40%">Crystal</th>
+                        <th>Effect</th>
+                        <th width="10%">Break Chance</th>
+                        <th width="15%">Socket</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="crystal in crystals">
+                            <td class="icon"><img class="crystal-icon" :src="crystal.icon" /></td>
+                            <td class="name"><span :class="'crystal-name rarity-' + crystal.grade">{{crystal.name}}</span></td>
+                            <td class="effect" data-label="Effect"><span v-html="splitEffects(crystal.effect)"></span></td>
+                            <td data-label="Break Chance">{{ crystal.breakChance }}</td>
+                            <td class="socket" data-label="Socket">{{ crystal.socket }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="scripts/crystals.js?v=20201209124430"></script>
+    <script src="scripts/vue-app.js?t=201905121045"></script>
+</body>
