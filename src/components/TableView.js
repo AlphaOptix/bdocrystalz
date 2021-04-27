@@ -1,7 +1,6 @@
 import { 
     makeStyles, 
     Paper,
-    Tab,
     Table, 
     TableBody, 
     TableCell, 
@@ -67,7 +66,7 @@ function TableView({crystals}){
                         return (
                             <StyledTableRow>
                                 <TableCell><img className={classes['icon']} src={crystal.icon} alt="icon" /></TableCell>
-                                <TableCell><a class={`${classes['name']} ${classes["rarity-" + crystal.grade]}`} target="_blank" rel="noreferrer" href={`https://bdocodex.com/us/item/${crystal.id}`}>{crystal.name}</a></TableCell>
+                                <TableCell><a className={`${classes['name']} ${classes["rarity-" + crystal.grade]}`} target="_blank" rel="noreferrer" href={`https://bdocodex.com/us/item/${crystal.id}`}>{crystal.name}</a></TableCell>
                                 <TableCell>
                                     <p>
                                         {crystal.effect.split(',').map((effect) => {
