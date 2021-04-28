@@ -31,7 +31,25 @@ function FilterPanel({crystals, setCrystals}) {
         }
     };
 
-    useEffect(()=>{
+    useEffect(() => {
+        function handleKeyUp(e) {
+            console.log(e);
+            if(e.code === "Enter" || e.code === "Escape") {
+                setState(s => ({
+                    ...s,
+                    anchorEl: null
+                }));
+            }
+        }
+
+        document.addEventListener('keyup', handleKeyUp);
+
+        return function cleanup() {
+            document.removeEventListener('keyup', handleKeyUp);
+        }
+    }, []);
+
+    useEffect(() => {
         const socketList = new Set();
         const effectList = new Set();
         const breakList = new Set();
@@ -113,7 +131,7 @@ function FilterPanel({crystals, setCrystals}) {
                 >
                     <div>
                         <FormControl style={{width: '100%'}}>
-                            <InputLabel htmlFor="search" shrink={true}>Search</InputLabel>
+                            <InputLabel htmlFor="search" shrink={true}>Name</InputLabel>
                             <Input
                                 placeholder=""
                                 id="search"
@@ -164,13 +182,14 @@ function FilterPanel({crystals, setCrystals}) {
                             </Select>
                         </FormControl>
                     </div>
-                    <div style={{ textAlign: 'center', paddingTop: 10 }}>
+                    <div style={{ textAlign: 'right', paddingTop: 10 }}>
                         <Button color="secondary" onClick={() => {
                             setSearchValue('');
                             setEffectValue('All');
                             setBreakValue('All');
                             setSocketValue('All');
                         }}>Clear All</Button>
+                        <Button onClick={handleClose}>Close</Button>
                     </div>
               </Popover>
         </div>
