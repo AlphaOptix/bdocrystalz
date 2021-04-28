@@ -5,6 +5,7 @@ const EffectControl = lazy(() => import('./EffectControl'));
 const GradeControl = lazy(() => import('./GradeControl'));
 const SearchControl = lazy(() => import('./SearchControl'));
 const SocketControl = lazy(() => import('./SocketControl'));
+const BreakControl = lazy(() => import('./BreakControl'));
 
 function FilterMenu({crystals, setCrystals, anchor, setAnchor}){
     const [state, setState] = useState({
@@ -140,6 +141,7 @@ function FilterMenu({crystals, setCrystals, anchor, setAnchor}){
                 <SearchControl searchValue={searchValue} setSearchValue={setSearchValue} /> 
                 <GradeControl grades={state.grades} gradeValue={gradeValue} setGradeValue={setGradeValue} />
                 <EffectControl effects={state.effects} effectValue={effectValue} setEffectValue={setEffectValue} />
+                <BreakControl breakChance={state.breakChance} breakValue={breakValue} setBreakValue={setBreakValue} />
                 <SocketControl sockets={state.sockets} socketValue={socketValue} setSocketValue={setSocketValue} />
                 <Container style={{ textAlign: 'right', paddingTop: 10 }}>
                     <Button color="secondary" onClick={() => {
