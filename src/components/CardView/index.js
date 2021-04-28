@@ -3,12 +3,12 @@ import {
     Card, 
     CardHeader, 
     CardContent, 
-    Avatar, 
     makeStyles, 
     Typography, 
     CardActionArea,
     Grid
 } from '@material-ui/core';
+import Image from 'material-ui-image';
 
 const useStyles = makeStyles({
     icon: {
@@ -55,7 +55,7 @@ function CardComponent({crystals}) {
                         <CardActionArea target="_blank" rel="noreferrer" href={`https://bdocodex.com/us/item/${crystal.id}`}>
                             <CardHeader 
                                 avatar={
-                                    <Avatar alt="crysal icon" src={crystal.icon} />
+                                    <Image color="transparent" src={crystal.icon} style={{width:34}} alt="icon" cover />
                                 }
                                 title={
                                     <Typography className={`${classes['name']} ${classes["rarity-" + crystal.grade]}`} variant="body2">{crystal.name}</Typography>

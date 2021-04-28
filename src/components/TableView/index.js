@@ -1,4 +1,5 @@
 import { 
+    Container,
     Link,
     makeStyles, 
     Paper,
@@ -11,6 +12,7 @@ import {
     withStyles
 } from '@material-ui/core';
 import React from 'react';
+import Image from 'material-ui-image';
 
 const useStyles = makeStyles({
     icon: {
@@ -66,14 +68,16 @@ function TableView({crystals}){
                     {crystals.map((crystal) => {
                         return (
                             <StyledTableRow key={`crystal-${crystal.id}`}>
-                                <TableCell><img className={classes['icon']} src={crystal.icon} alt="icon" /></TableCell>
+                                <TableCell>
+                                    <Image color="transparent" src={crystal.icon} style={{width:44}} alt="icon" cover />
+                                </TableCell>
                                 <TableCell><Link className={`${classes['name']} ${classes["rarity-" + crystal.grade]}`} target="_blank" rel="noreferrer" href={`https://bdocodex.com/us/item/${crystal.id}`}>{crystal.name}</Link></TableCell>
                                 <TableCell>
                                     {crystal.effect.split(',').map((effect, i) => {
                                         return (
-                                            <div key={`effect${effect + i}`}>
+                                            <Container key={`effect${effect + i}`} disableGutters>
                                                 {effect}&nbsp;
-                                            </div>
+                                            </Container>
                                         )
                                     })}
                                 </TableCell>
