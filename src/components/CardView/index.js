@@ -28,19 +28,24 @@ const useStyles = makeStyles({
         paddingBottom: 0
     },
     'rarity-4': {
-        color: '#d36300 !important'
+        color: '#d36300 !important',
+        textShadow: '2px 2px 2px #000000'
     },
     'rarity-3': {
-        color: '#f6c232 !important'
+        color: '#f6c232 !important',
+        textShadow: '2px 2px 2px #000000'
     },
     'rarity-2': {
-        color: '#0391c4 !important'
+        color: '#0391c4 !important',
+        textShadow: '2px 2px 2px #000000'
     },
     'rarity-1': {
-        color: '#5ff369 !important'
+        color: '#5ff369 !important',
+        textShadow: '2px 2px 2px #000000'
     },
     'rarity-0': {
-        color: '#fff !important'
+        color: '#fff !important',
+        textShadow: '2px 2px 2px #000000'
     }
 })
 
