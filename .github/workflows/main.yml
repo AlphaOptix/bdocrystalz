@@ -9,21 +9,15 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
-        with:
-          persist-credentials: false 
 
-      - name: Install ⛏
-        uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install # will run `yarn install` command
-      
-      - name: Build 🔧
-        uses: borales/actions-yarn@v2.0.0
-        with:
-            cmd: build # will run `yarn build` command
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        run: |
+          npm install -g yarn
+          yarn
+          yarn build
 
       - name: Deploy 🚀
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
