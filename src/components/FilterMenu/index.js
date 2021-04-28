@@ -1,9 +1,10 @@
-import { Button, Popover, Container } from '@material-ui/core';
-import { useState, useEffect, useRef } from 'react';
-import EffectControl from './EffectControl';
-import GradeControl from './GradeControl';
-import SearchControl from './SearchControl';
-import SocketControl from './SocketControl';
+import { Button, Popover, Container, CircularProgress } from '@material-ui/core';
+import { useState, useEffect, useRef, lazy, Suspense } from 'react';
+
+const EffectControl = lazy(() => import('./EffectControl'));
+const GradeControl = lazy(() => import('./GradeControl'));
+const SearchControl = lazy(() => import('./SearchControl'));
+const SocketControl = lazy(() => import('./SocketControl'));
 
 function FilterMenu({crystals, setCrystals, anchor, setAnchor}){
     const [state, setState] = useState({
@@ -131,20 +132,26 @@ function FilterMenu({crystals, setCrystals, anchor, setAnchor}){
                 }
             }}
         >
-            <SearchControl searchValue={searchValue} setSearchValue={setSearchValue} /> 
-            <GradeControl grades={state.grades} gradeValue={gradeValue} setGradeValue={setGradeValue} />
-            <EffectControl effects={state.effects} effectValue={effectValue} setEffectValue={setEffectValue} />
-            <SocketControl sockets={state.sockets} socketValue={socketValue} setSocketValue={setSocketValue} />
-            <Container style={{ textAlign: 'right', paddingTop: 10 }}>
-                <Button color="secondary" onClick={() => {
-                    setSearchValue('');
-                    setEffectValue('All');
-                    setBreakValue('All');
-                    setSocketValue('All');
-                    setGradeValue('All');
-                }}>Clear All</Button>
-                <Button onClick={handleClose}>Close</Button>
-            </Container>
+            <Suspense fallback={
+                <Container style={{ display: 'flex', justifyContent: 'center' }}>
+                <CircularProgress disableShrink size={40} />
+                </Container>
+            }>
+                <SearchControl searchValue={searchValue} setSearchValue={setSearchValue} /> 
+                <GradeControl grades={state.grades} gradeValue={gradeValue} setGradeValue={setGradeValue} />
+                <EffectControl effects={state.effects} effectValue={effectValue} setEffectValue={setEffectValue} />
+                <SocketControl sockets={state.sockets} socketValue={socketValue} setSocketValue={setSocketValue} />
+                <Container style={{ textAlign: 'right', paddingTop: 10 }}>
+                    <Button color="secondary" onClick={() => {
+                        setSearchValue('');
+                        setEffectValue('All');
+                        setBreakValue('All');
+                        setSocketValue('All');
+                        setGradeValue('All');
+                    }}>Clear All</Button>
+                    <Button onClick={handleClose}>Close</Button>
+                </Container>
+            </Suspense>
         </Popover>
     );
 }

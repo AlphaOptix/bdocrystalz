@@ -55,7 +55,7 @@ function CardComponent({crystals}) {
                         <CardActionArea target="_blank" rel="noreferrer" href={`https://bdocodex.com/us/item/${crystal.id}`}>
                             <CardHeader 
                                 avatar={
-                                    <Image color="transparent" src={crystal.icon} style={{width:34}} alt="icon" cover />
+                                    <Image color="transparent" src={process.env.PUBLIC_URL + `/static/images/crystals/${crystal.id}.png`} style={{width:44}} alt="icon" cover />
                                 }
                                 title={
                                     <Typography className={`${classes['name']} ${classes["rarity-" + crystal.grade]}`} variant="body2">{crystal.name}</Typography>

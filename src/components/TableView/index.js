@@ -69,7 +69,7 @@ function TableView({crystals}){
                         return (
                             <StyledTableRow key={`crystal-${crystal.id}`}>
                                 <TableCell>
-                                    <Image color="transparent" src={crystal.icon} style={{width:44}} alt="icon" cover />
+                                    <Image color="transparent" src={process.env.PUBLIC_URL + `/static/images/crystals/${crystal.id}.png`} style={{width:44}} alt="icon" cover />
                                 </TableCell>
                                 <TableCell><Link className={`${classes['name']} ${classes["rarity-" + crystal.grade]}`} target="_blank" rel="noreferrer" href={`https://bdocodex.com/us/item/${crystal.id}`}>{crystal.name}</Link></TableCell>
                                 <TableCell>

@@ -1,9 +1,11 @@
 import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
+import { Container, CircularProgress } from '@material-ui/core';
 import crystalData from '../../data/crystals.json';
-import TableView from '../TableView';
-import CardView from '../CardView';
-import FilterPanel from '../FilterPanel';
-import { useState } from 'react';
+import { useState, Suspense, lazy } from 'react';
+
+const TableView = lazy(() => import('../TableView'));
+const CardView = lazy(() => import('../CardView'));
+const FilterPanel = lazy(() => import('../FilterPanel'));
 
 function DataView({width}) {
     const view = [];
@@ -17,7 +19,15 @@ function DataView({width}) {
         view.push((<TableView crystals={crystals} key="tableview" />));
     }
 
-    return view;
+    return (
+        <Suspense fallback={
+            <Container style={{ display: 'flex', justifyContent: 'center' }}>
+              <CircularProgress disableShrink size={40} />
+            </Container>
+          }>
+            {view}
+        </Suspense>
+    );
 }
            
 export default withWidth()(DataView);
