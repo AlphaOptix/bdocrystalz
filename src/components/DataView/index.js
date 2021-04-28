@@ -1,8 +1,8 @@
 import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
-import crystalData from '../data/crystals.json';
-import TableView from './TableView';
-import CardView from './CardView';
-import FilterPanel from './FilterPanel';
+import crystalData from '../../data/crystals.json';
+import TableView from '../TableView';
+import CardView from '../CardView';
+import FilterPanel from '../FilterPanel';
 import { useState } from 'react';
 
 function DataView({width}) {
