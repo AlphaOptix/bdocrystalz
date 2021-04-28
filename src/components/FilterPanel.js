@@ -9,11 +9,34 @@ function FilterPanel({crystals, setCrystals}) {
         sockets: [],
         effects: [],
         breakChance: [],
+        grades: [
+            {
+                name: "White",
+                value: "0"
+            },
+            {
+                name: "Green",
+                value: "1"
+            },
+            {
+                name: "Blue",
+                value: "2"
+            },
+            {
+                name: "Yellow",
+                value: "3"
+            },
+            {
+                name: "Orange",
+                value: "4"
+            }
+        ]
     });
     const [searchValue, setSearchValue] = useState(""),
           [socketValue, setSocketValue] = useState("All"),
           [breakValue, setBreakValue]   = useState("All"),
-          [effectValue, setEffectValue] = useState("All");
+          [effectValue, setEffectValue] = useState("All"),
+          [gradeValue, setGradeValue]   = useState("All");
 
     const filterTimeout = useRef();
 
@@ -33,7 +56,6 @@ function FilterPanel({crystals, setCrystals}) {
 
     useEffect(() => {
         function handleKeyUp(e) {
-            console.log(e);
             if(e.code === "Enter" || e.code === "Escape") {
                 setState(s => ({
                     ...s,
@@ -87,6 +109,7 @@ function FilterPanel({crystals, setCrystals}) {
                 if (!crystal.name.toUpperCase().includes(searchValue.toUpperCase())) return false;
                 if (socketValue !== 'All' && crystal.socket !== socketValue) return false;
                 if (breakValue !== 'All' && crystal.breakChance !== breakValue) return false;
+                if (gradeValue !== 'All' && crystal.grade !== gradeValue) return false;
                 let hasEffect = false;
                 crystal.effect.split(',').forEach(effect => {
                     const plusIndex = effect.indexOf('+');
@@ -97,7 +120,7 @@ function FilterPanel({crystals, setCrystals}) {
             });
             setCrystals(filteredCrystals);
         }, 250);
-    }, [searchValue, breakValue, effectValue, socketValue, crystals, setCrystals]);
+    }, [searchValue, breakValue, effectValue, socketValue, gradeValue, crystals, setCrystals]);
 
     const open = Boolean(state.anchorEl);
     const id = open ? 'simple-popover' : undefined;
@@ -138,6 +161,20 @@ function FilterPanel({crystals, setCrystals}) {
                                 value={searchValue} 
                                 onChange={event => setSearchValue(event.target.value)}
                             />
+                        </FormControl>
+                    </div>
+                    <div>
+                        <FormControl style={{width: '100%'}}>
+                            <InputLabel id="grade-label">Grade</InputLabel>
+                            <Select 
+                                labelId="grade-label"
+                                autoWidth={true} 
+                                value={gradeValue}
+                                onChange={event => setGradeValue(event.target.value)}
+                            >
+                                <MenuItem value="All" selected key="grade-all">All</MenuItem>
+                                {state.grades.map((grade, i) => (<MenuItem value={grade.value} key={`grade-${grade.name}`}>{grade.name}</MenuItem>))}
+                            </Select>
                         </FormControl>
                     </div>
                     <div>
@@ -188,6 +225,7 @@ function FilterPanel({crystals, setCrystals}) {
                             setEffectValue('All');
                             setBreakValue('All');
                             setSocketValue('All');
+                            setGradeValue('All');
                         }}>Clear All</Button>
                         <Button onClick={handleClose}>Close</Button>
                     </div>
