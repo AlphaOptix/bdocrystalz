@@ -53,7 +53,7 @@ function TableView({crystals}){
         <TableContainer component={Paper}>
             <Table>
                 <TableHead>
-                    <TableRow>
+                    <TableRow key="header-row">
                         <TableCell width="5%"></TableCell>
                         <TableCell width="40%">Crystal</TableCell>
                         <TableCell>Effect</TableCell>
@@ -64,19 +64,17 @@ function TableView({crystals}){
                 <TableBody>
                     {crystals.map((crystal) => {
                         return (
-                            <StyledTableRow>
+                            <StyledTableRow key={`crystal-${crystal.id}`}>
                                 <TableCell><img className={classes['icon']} src={crystal.icon} alt="icon" /></TableCell>
                                 <TableCell><a className={`${classes['name']} ${classes["rarity-" + crystal.grade]}`} target="_blank" rel="noreferrer" href={`https://bdocodex.com/us/item/${crystal.id}`}>{crystal.name}</a></TableCell>
                                 <TableCell>
-                                    <p>
-                                        {crystal.effect.split(',').map((effect) => {
-                                            return (
-                                                <React.Fragment>
-                                                    {effect}<br />
-                                                </React.Fragment>
-                                            )
-                                        })}
-                                    </p>
+                                    {crystal.effect.split(',').map((effect, i) => {
+                                        return (
+                                            <div key={`effect${effect + i}`}>
+                                                {effect}&nbsp;
+                                            </div>
+                                        )
+                                    })}
                                 </TableCell>
                                 <TableCell>{crystal.breakChance}</TableCell>
                                 <TableCell>{crystal.socket}</TableCell>

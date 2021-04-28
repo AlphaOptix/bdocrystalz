@@ -1,19 +1,33 @@
 import { Button, Select, InputLabel, MenuItem, FormControl, Input, Popover } from '@material-ui/core';
 import FilterListIcon from '@material-ui/icons/FilterList';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 
 function FilterPanel({crystals, setCrystals}) {
-    const [anchorEl, setAnchorEl] = useState(false);
-    const [sockets, setSockets] = useState([]);
-    const [effects, setEffects] = useState([]);
-    const [breakChance, setBreakChance] = useState([]);
+    const [state, setState] = useState({
+        anchorEl: false,
+        sockets: [],
+        effects: [],
+        breakChance: [],
+    });
+    const [searchValue, setSearchValue] = useState(""),
+          [socketValue, setSocketValue] = useState("All"),
+          [breakValue, setBreakValue]   = useState("All"),
+          [effectValue, setEffectValue] = useState("All");
+
+    const filterTimeout = useRef();
 
     const handleClick = (event) => {
-        if(anchorEl) {
-            setAnchorEl(null);
+        if(state.anchorEl) {
+            setState({ 
+                ...state, 
+                anchorEl: null
+            });
         } else {
-            setAnchorEl(event.currentTarget);
+            setState({ 
+                ...state,
+                anchorEl: event.currentTarget 
+            });
         }
     };
 
@@ -32,16 +46,42 @@ function FilterPanel({crystals, setCrystals}) {
             effectList.delete("");
         });
 
-        setBreakChance([...breakList]);
-        setSockets([...socketList].sort());
-        setEffects([...effectList].sort());
+        setState(s => ({
+            ...s,
+            breakChance: [...breakList],
+            sockets: [...socketList].sort(),
+            effects: [...effectList].sort()
+        }));
     },[crystals]);
   
     const handleClose = () => {
-      setAnchorEl(null);
+      setState({
+          ...state,
+          anchorEl: null
+      });
     };
 
-    const open = Boolean(anchorEl);
+    useEffect(() => {
+        clearTimeout(filterTimeout.current);
+        let filteredCrystals = [];
+        filterTimeout.current = setTimeout(() => {
+            filteredCrystals = crystals.filter(crystal => {
+                if (!crystal.name.toUpperCase().includes(searchValue.toUpperCase())) return false;
+                if (socketValue !== 'All' && crystal.socket !== socketValue) return false;
+                if (breakValue !== 'All' && crystal.breakChance !== breakValue) return false;
+                let hasEffect = false;
+                crystal.effect.split(',').forEach(effect => {
+                    const plusIndex = effect.indexOf('+');
+                    if (effect.substr(0,plusIndex).trim() === effectValue) hasEffect = true;
+                });
+                if (effectValue !== 'All' && hasEffect === false) return false;
+                return true;
+            });
+            setCrystals(filteredCrystals);
+        }, 250);
+    }, [searchValue, breakValue, effectValue, socketValue, crystals, setCrystals]);
+
+    const open = Boolean(state.anchorEl);
     const id = open ? 'simple-popover' : undefined;
     
     return (
@@ -52,7 +92,7 @@ function FilterPanel({crystals, setCrystals}) {
                 <Popover
                     id={id}
                     open={open}
-                    anchorEl={anchorEl}
+                    anchorEl={state.anchorEl}
                     onClose={handleClose}
                     placement="bottom-end"
                     disablePortal={false}
@@ -73,35 +113,64 @@ function FilterPanel({crystals, setCrystals}) {
                 >
                     <div>
                         <FormControl style={{width: '100%'}}>
-                            <Input placeholder="Search" />
+                            <InputLabel htmlFor="search" shrink={true}>Search</InputLabel>
+                            <Input
+                                placeholder=""
+                                id="search"
+                                value={searchValue} 
+                                onChange={event => setSearchValue(event.target.value)}
+                            />
+                        </FormControl>
+                    </div>
+                    <div>
+                        <FormControl style={{width: '100%'}}>
+                            <InputLabel id="effect-label">Effect</InputLabel>
+                            <Select 
+                                labelId="effect-label"
+                                autoWidth={true} 
+                                value={effectValue}
+                                onChange={event => setEffectValue(event.target.value)}
+                            >
+                                <MenuItem value="All" selected key="effect-1">All</MenuItem>
+                                {state.effects.map((effect, i) => (<MenuItem value={effect} key={`effect+${i}`}>{effect}</MenuItem>))}
+                            </Select>
                         </FormControl>
                     </div>
                     <div>
                         <FormControl style={{width: '100%'}}>
                             <InputLabel id="break-label">Break Chance</InputLabel>
-                            <Select labelId="break-label" autoWidth={true}>
-                                <MenuItem value="All" selected>All</MenuItem>
-                                {breakChance.map(chance => (<MenuItem value={chance}>{chance}</MenuItem>))}
+                            <Select 
+                                labelId="break-label" 
+                                autoWidth={true} 
+                                value={breakValue}
+                                onChange={event => setBreakValue(event.target.value)}
+                            >
+                                <MenuItem value="All" key="break-1">All</MenuItem>
+                                {state.breakChance.map((chance, i) => (<MenuItem value={chance} key={`break+${i}`}>{chance}</MenuItem>))}
                             </Select>
                         </FormControl>
                     </div>
                     <div>
                         <FormControl style={{width: '100%'}}>
                             <InputLabel id="socket-label">Socket</InputLabel>
-                            <Select labelId="socket-label" autoWidth={true}>
-                                <MenuItem value="All" selected>All</MenuItem>
-                                {sockets.map(socket => (<MenuItem value={socket}>{socket}</MenuItem>))}
+                            <Select 
+                                labelId="socket-label" 
+                                autoWidth={true} 
+                                value={socketValue}
+                                onChange={event => setSocketValue(event.target.value)}
+                            >
+                                <MenuItem value="All" selected key="socket-1">All</MenuItem>
+                                {state.sockets.map((socket, i) => (<MenuItem value={socket} key={`socket+${i}`}>{socket}</MenuItem>))}
                             </Select>
                         </FormControl>
                     </div>
-                    <div>
-                        <FormControl style={{width: '100%'}}>
-                            <InputLabel id="effect-label">Effect</InputLabel>
-                            <Select labelId="effect-label" autoWidth={true}>
-                                <MenuItem value="All" selected>All</MenuItem>
-                                {effects.map(effect => (<MenuItem value={effect}>{effect}</MenuItem>))}
-                            </Select>
-                        </FormControl>
+                    <div style={{ textAlign: 'center', paddingTop: 10 }}>
+                        <Button color="secondary" onClick={() => {
+                            setSearchValue('');
+                            setEffectValue('All');
+                            setBreakValue('All');
+                            setSocketValue('All');
+                        }}>Clear All</Button>
                     </div>
               </Popover>
         </div>

@@ -9,12 +9,13 @@ function DataView({width}) {
     const view = [];
     const [crystals, setCrystals] = useState(crystalData);
 
-    view.push((<FilterPanel crystals={crystalData} setCrystals={setCrystals} />))
+    view.push((<FilterPanel crystals={crystalData} setCrystals={setCrystals} key="filterpanel" />))
 
     if(isWidthDown('xs', width)) {
-        view.push((<CardView crystals={crystals} />));
+        view.push((<CardView crystals={crystals} key="cardview" />));
+    } else {
+        view.push((<TableView crystals={crystals} key="tableview" />));
     }
-    view.push((<TableView crystals={crystals} />));
 
     return view;
 }

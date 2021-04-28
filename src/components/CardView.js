@@ -51,7 +51,7 @@ function CardComponent({crystals}) {
         <React.Fragment>
             {crystals.map((crystal) => {
                 return (
-                    <Card className={classes.bottomGutter}>
+                    <Card className={classes.bottomGutter} key={crystal.id}>
                         <CardActionArea target="_blank" rel="noreferrer" href={`https://bdocodex.com/us/item/${crystal.id}`}>
                             <CardHeader 
                                 avatar={
@@ -68,11 +68,11 @@ function CardComponent({crystals}) {
                                         <Typography variant="body2">
                                             <b>Effect:</b>
                                             <br />
-                                            {crystal.effect.split(',').map((effect) => {
+                                            {crystal.effect.split(',').map((effect, i) => {
                                                 return (
-                                                    <React.Fragment>
+                                                    <span key={`effect${effect+i}`}>
                                                         {effect}<br />
-                                                    </React.Fragment>
+                                                    </span>
                                                 )
                                             })}
                                         </Typography>
