@@ -1461,7 +1461,7 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockback/Floating Resistance +10%, All AP +3, Max HP +100",
-        "breakChance": "Very High"
+        "breakChance": "High"
     },
     {
         "id": "",
@@ -1469,7 +1469,7 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +3, Max HP +100",
-        "breakChance": "Very High"
+        "breakChance": "High"
     },
     {
         "id": "",
@@ -1477,7 +1477,7 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Grapple Resistance +10%, All AP +3, Max HP +100",
-        "breakChance": "Very High"
+        "breakChance": "High"
     },
     {
         "id": "",
@@ -1485,7 +1485,7 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +3, Max HP +100",
-        "breakChance": "Very High"
+        "breakChance": "High"
     },
     {
         "id": "",
@@ -1493,7 +1493,7 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockback/Floating Resistance +10%, All AP +2, Max HP +100",
-        "breakChance": "Very High"
+        "breakChance": "High"
     },
     {
         "id": "",
@@ -1501,7 +1501,7 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +2, Max HP +100",
-        "breakChance": "Very High"
+        "breakChance": "High"
     },
     {
         "id": "",
@@ -1509,7 +1509,7 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Grapple Resistance +10%, All AP +2, Max HP +100",
-        "breakChance": "Very High"
+        "breakChance": "High"
     },
     {
         "id": "",
@@ -1517,7 +1517,7 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +2, Max HP +100",
-        "breakChance": "Very High"
+        "breakChance": "High"
     },
     {
         "id": "",
@@ -1525,7 +1525,7 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockback/Floating Resistance +10%, All AP +3, Max HP +50",
-        "breakChance": "Very High"
+        "breakChance": "High"
     },
     {
         "id": "",
@@ -1533,7 +1533,7 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +3, Max HP +50",
-        "breakChance": "Very High"
+        "breakChance": "High"
     },
     {
         "id": "",
@@ -1541,7 +1541,7 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Grapple Resistance +10%, All AP +3, Max HP +50",
-        "breakChance": "Very High"
+        "breakChance": "High"
     },
     {
         "id": "",
@@ -1549,6 +1549,6 @@
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +3, Max HP +50",
-        "breakChance": "Very High"
+        "breakChance": "High"
     }
 ]
