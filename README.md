@@ -10,6 +10,12 @@ If you would like to make any changes you are welcome to open a [pull request](h
 If you are uncomfortable doing a PR, you are welcome to open an [issue](https://github.com/AlphaOptix/bdocrystalz/issues) and we will get to it as soon as we can. 
 
 ## Changelog
+- **5/12/2021**
+  - Added
+    - JIN/BON/WON Glorious Crystal of Courage - Ignore Knockback/Floating Resistance
+    - JIN/BON/WON Glorious Crystal of Courage - Ignore Knockdown/Bound Resistance
+    - JIN/BON/WON Glorious Crystal of Courage - Ignore Grapple Resistance
+    - JIN/BON/WON Glorious Crystal of Courage - Ignore Stun/Stiffness/Freezing Resistance
 - **4/26/2021**
     - Migrated to React
     - Added support for mobile
