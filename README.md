@@ -11,6 +11,11 @@ If you are uncomfortable doing a PR, you are welcome to open an [issue](https://
 
 ## Changelog
 - **5/12/2021**
+  - Renamed Courage Crystals to match what is in game
+    - Changed `JIN/BON/WON Glorious Crystal of Courage - Ignore Knockback/Floating Resistance` to `JIN/BON/WON Glorious Crystal of Courage - Ignore Knockback Resistance`
+    - Changed `JIN/BON/WON Glorious Crystal of Courage - Ignore Knockdown/Bound Resistance` to `JIN/BON/WON Glorious Crystal of Courage - Ignore Knockdown Resistance`
+    - Changed `JIN/BON/WON Glorious Crystal of Courage - Ignore Stun/Stiffness/Freezing Resistance` to `JIN/BON/WON Glorious Crystal of Courage - Ignore Stun Resistance`     
+- **5/12/2021**
   - Added
     - JIN/BON/WON Glorious Crystal of Courage - Ignore Knockback/Floating Resistance
     - JIN/BON/WON Glorious Crystal of Courage - Ignore Knockdown/Bound Resistance
