@@ -1456,23 +1456,23 @@
         "breakChance": "None"
     },
     {
-        "id": "",
-        "name": "JIN Glorous Crystal of Courage - Ignore Knockback/Floating Resistance",
+        "id": "15697",
+        "name": "JIN Glorous Crystal of Courage - Ignore Knockback Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockback/Floating Resistance +10%, All AP +3, Max HP +100",
         "breakChance": "High"
     },
     {
-        "id": "",
-        "name": "JIN Glorous Crystal of Courage - Ignore Knockdown/Bound Resistance",
+        "id": "15700",
+        "name": "JIN Glorous Crystal of Courage - Ignore Knockdown Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +3, Max HP +100",
         "breakChance": "High"
     },
     {
-        "id": "",
+        "id": "15703",
         "name": "JIN Glorous Crystal of Courage - Ignore Grapple Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
@@ -1480,31 +1480,31 @@
         "breakChance": "High"
     },
     {
-        "id": "",
-        "name": "JIN Glorous Crystal of Courage - Ignore Stun/Stiffness/Freezing Resistance",
+        "id": "15706",
+        "name": "JIN Glorous Crystal of Courage - Ignore Stun Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +3, Max HP +100",
         "breakChance": "High"
     },
     {
-        "id": "",
-        "name": "BON Glorous Crystal of Courage - Ignore Knockback/Floating Resistance",
+        "id": "15696",
+        "name": "BON Glorous Crystal of Courage - Ignore Knockback Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockback/Floating Resistance +10%, All AP +2, Max HP +100",
         "breakChance": "High"
     },
     {
-        "id": "",
-        "name": "BON Glorous Crystal of Courage - Ignore Knockdown/Bound Resistance",
+        "id": "15699",
+        "name": "BON Glorous Crystal of Courage - Ignore Knockdown Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +2, Max HP +100",
         "breakChance": "High"
     },
     {
-        "id": "",
+        "id": "15702",
         "name": "BON Glorous Crystal of Courage - Ignore Grapple Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
@@ -1512,31 +1512,31 @@
         "breakChance": "High"
     },
     {
-        "id": "",
-        "name": "BON Glorous Crystal of Courage - Ignore Stun/Stiffness/Freezing Resistance",
+        "id": "15705",
+        "name": "BON Glorous Crystal of Courage - Ignore Stun Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +2, Max HP +100",
         "breakChance": "High"
     },
     {
-        "id": "",
-        "name": "WON Glorous Crystal of Courage - Ignore Knockback/Floating Resistance",
+        "id": "15695",
+        "name": "WON Glorous Crystal of Courage - Ignore Knockback Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockback/Floating Resistance +10%, All AP +3, Max HP +50",
         "breakChance": "High"
     },
     {
-        "id": "",
-        "name": "WON Glorous Crystal of Courage - Ignore Knockdown/Bound Resistance",
+        "id": "15698",
+        "name": "WON Glorous Crystal of Courage - Ignore Knockdown Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +3, Max HP +50",
         "breakChance": "High"
     },
     {
-        "id": "",
+        "id": "15701",
         "name": "WON Glorous Crystal of Courage - Ignore Grapple Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
@@ -1544,8 +1544,8 @@
         "breakChance": "High"
     },
     {
-        "id": "",
-        "name": "WON Glorous Crystal of Courage - Ignore Stun/Stiffness/Freezing Resistance",
+        "id": "15706",
+        "name": "WON Glorous Crystal of Courage - Ignore Stun Resistance",
         "grade": "4",
         "socket": "Secondary Weapon",
         "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +3, Max HP +50",
