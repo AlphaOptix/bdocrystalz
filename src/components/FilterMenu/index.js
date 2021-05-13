@@ -11,7 +11,7 @@ function FilterMenu ({ crystals, setCrystals, anchor, setAnchor }) {
   const [state, setState] = useState({
     sockets: [],
     effects: [],
-    breakChance: [],
+    breakChance: ['None', 'Low', 'High', 'Very High'],
     grades: [
       {
         name: 'White',
@@ -61,10 +61,8 @@ function FilterMenu ({ crystals, setCrystals, anchor, setAnchor }) {
   useEffect(() => {
     const socketList = new Set();
     const effectList = new Set();
-    const breakList = new Set();
 
     crystals.forEach(crystal => {
-      breakList.add(crystal.breakChance);
       socketList.add(crystal.socket);
       crystal.effect.split(',').forEach(effect => {
         const plusIndex = effect.indexOf('+');
@@ -75,7 +73,6 @@ function FilterMenu ({ crystals, setCrystals, anchor, setAnchor }) {
 
     setState(s => ({
       ...s,
-      breakChance: [...breakList],
       sockets: [...socketList].sort(),
       effects: [...effectList].sort()
     }));
