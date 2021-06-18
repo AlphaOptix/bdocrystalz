@@ -1,6 +1,7 @@
 # Changelog
 
 ## 6/17/2021
+
 - Changed code-style to `prettier-standard`
 
 ## 5/12/2021
