@@ -10,9 +10,9 @@ import {
   TableHead,
   TableRow,
   withStyles
-} from '@material-ui/core';
-import React from 'react';
-import Image from 'material-ui-image';
+} from '@material-ui/core'
+import React from 'react'
+import Image from 'material-ui-image'
 
 const useStyles = makeStyles({
   icon: {
@@ -45,18 +45,18 @@ const useStyles = makeStyles({
     color: '#fff !important',
     textShadow: '1px 1px 2px #000'
   }
-});
+})
 
-const StyledTableRow = withStyles((theme) => ({
+const StyledTableRow = withStyles(theme => ({
   root: {
     '&:nth-of-type(odd)': {
       backgroundColor: theme.palette.action.hover
     }
   }
-}))(TableRow);
+}))(TableRow)
 
 function TableView ({ crystals }) {
-  const classes = useStyles();
+  const classes = useStyles()
   return (
     <TableContainer component={Paper}>
       <Table>
@@ -70,31 +70,51 @@ function TableView ({ crystals }) {
           </TableRow>
         </TableHead>
         <TableBody>
-          {crystals.map((crystal) => {
+          {crystals.map(crystal => {
             return (
               <StyledTableRow key={`crystal-${crystal.id}`}>
                 <TableCell>
-                  <Image color='transparent' src={process.env.PUBLIC_URL + `/static/images/crystals/${crystal.id}.png`} style={{ width: 44 }} alt='icon' cover />
+                  <Image
+                    color='transparent'
+                    src={
+                      process.env.PUBLIC_URL +
+                      `/static/images/crystals/${crystal.id}.png`
+                    }
+                    style={{ width: 44 }}
+                    alt='icon'
+                    cover
+                  />
                 </TableCell>
-                <TableCell><Link className={`${classes.name} ${classes['rarity-' + crystal.grade]}`} target='_blank' rel='noreferrer' href={`https://bdocodex.com/us/item/${crystal.id}`}>{crystal.name}</Link></TableCell>
+                <TableCell>
+                  <Link
+                    className={`${classes.name} ${
+                      classes['rarity-' + crystal.grade]
+                    }`}
+                    target='_blank'
+                    rel='noreferrer'
+                    href={`https://bdocodex.com/us/item/${crystal.id}`}
+                  >
+                    {crystal.name}
+                  </Link>
+                </TableCell>
                 <TableCell>
                   {crystal.effect.split(',').map((effect, i) => {
                     return (
                       <Container key={`effect${effect + i}`} disableGutters>
                         {effect}&nbsp;
                       </Container>
-                    );
+                    )
                   })}
                 </TableCell>
                 <TableCell>{crystal.breakChance}</TableCell>
                 <TableCell>{crystal.socket}</TableCell>
               </StyledTableRow>
-            );
+            )
           })}
         </TableBody>
       </Table>
     </TableContainer>
-  );
+  )
 }
 
-export default TableView;
+export default TableView

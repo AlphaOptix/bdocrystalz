@@ -1,4 +1,10 @@
-import { Container, Select, InputLabel, MenuItem, FormControl } from '@material-ui/core';
+import {
+  Container,
+  Select,
+  InputLabel,
+  MenuItem,
+  FormControl
+} from '@material-ui/core'
 
 function GradeControl ({ gradeValue, setGradeValue, grades }) {
   return (
@@ -11,12 +17,18 @@ function GradeControl ({ gradeValue, setGradeValue, grades }) {
           value={gradeValue}
           onChange={event => setGradeValue(event.target.value)}
         >
-          <MenuItem value='All' selected key='grade-all'>All</MenuItem>
-          {grades.map((grade, i) => (<MenuItem value={grade.value} key={`grade-${grade.name}`}>{grade.name}</MenuItem>))}
+          <MenuItem value='All' selected key='grade-all'>
+            All
+          </MenuItem>
+          {grades.map((grade, i) => (
+            <MenuItem value={grade.value} key={`grade-${grade.name}`}>
+              {grade.name}
+            </MenuItem>
+          ))}
         </Select>
       </FormControl>
     </Container>
-  );
+  )
 }
 
-export default GradeControl;
+export default GradeControl

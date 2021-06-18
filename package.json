@@ -16,14 +16,13 @@
   },
   "devDependencies": {
     "husky": "^6.0.0",
-    "semistandard": "^16.0.0",
-    "snazzy": "^9.0.0"
+    "prettier-standard": "^16.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build-local": "PUBLIC_URL=/ react-scripts build",
-    "lint": "semistandard --fix --verbose | snazzy",
+    "lint": "prettier-standard --lint",
     "eject": "react-scripts eject",
     "prepare": "husky install"
   },

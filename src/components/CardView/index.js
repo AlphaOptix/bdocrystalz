@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import {
   Card,
   CardHeader,
@@ -7,8 +7,8 @@ import {
   Typography,
   CardActionArea,
   Grid
-} from '@material-ui/core';
-import Image from 'material-ui-image';
+} from '@material-ui/core'
+import Image from 'material-ui-image'
 
 const useStyles = makeStyles({
   icon: {
@@ -47,28 +47,54 @@ const useStyles = makeStyles({
     color: '#fff !important',
     textShadow: '1px 1px 2px #000'
   }
-});
+})
 
 function CardComponent ({ crystals }) {
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
     <>
-      {crystals.map((crystal) => {
+      {crystals.map(crystal => {
         return (
           <Card className={classes.bottomGutter} key={crystal.id}>
-            <CardActionArea target='_blank' rel='noreferrer' href={`https://bdocodex.com/us/item/${crystal.id}`}>
+            <CardActionArea
+              target='_blank'
+              rel='noreferrer'
+              href={`https://bdocodex.com/us/item/${crystal.id}`}
+            >
               <CardHeader
                 avatar={
-                  <Image color='transparent' src={process.env.PUBLIC_URL + `/static/images/crystals/${crystal.id}.png`} style={{ width: 44 }} alt='icon' cover />
-                                }
+                  <Image
+                    color='transparent'
+                    src={
+                      process.env.PUBLIC_URL +
+                      `/static/images/crystals/${crystal.id}.png`
+                    }
+                    style={{ width: 44 }}
+                    alt='icon'
+                    cover
+                  />
+                }
                 title={
-                  <Typography className={`${classes.name} ${classes['rarity-' + crystal.grade]}`} variant='body2'>{crystal.name}</Typography>
-                                }
+                  <Typography
+                    className={`${classes.name} ${
+                      classes['rarity-' + crystal.grade]
+                    }`}
+                    variant='body2'
+                  >
+                    {crystal.name}
+                  </Typography>
+                }
                 className={classes.noBottomPad}
               />
               <CardContent>
-                <Grid container direction='row' justify='space-between' alignItems='flex-start' spacing={1}>
+                <Grid
+                  container
+                  direction='row'
+                  justify='space-between'
+                  alignItems='flex-start'
+                  spacing={1}
+                >
                   <Grid item xs={6}>
                     <Typography variant='body2'>
                       <b>Effect:</b>
@@ -76,9 +102,10 @@ function CardComponent ({ crystals }) {
                       {crystal.effect.split(',').map((effect, i) => {
                         return (
                           <span key={`effect${effect + i}`}>
-                            {effect}<br />
+                            {effect}
+                            <br />
                           </span>
-                        );
+                        )
                       })}
                     </Typography>
                   </Grid>
@@ -100,10 +127,10 @@ function CardComponent ({ crystals }) {
               </CardContent>
             </CardActionArea>
           </Card>
-        );
+        )
       })}
     </>
-  );
+  )
 }
 
-export default CardComponent;
+export default CardComponent

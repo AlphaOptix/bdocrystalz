@@ -1,10 +1,12 @@
-import { Container, InputLabel, FormControl, Input } from '@material-ui/core';
+import { Container, InputLabel, FormControl, Input } from '@material-ui/core'
 
 function SearchControl ({ searchValue, setSearchValue }) {
   return (
     <Container>
       <FormControl style={{ width: '100%' }}>
-        <InputLabel htmlFor='search' shrink>Name</InputLabel>
+        <InputLabel htmlFor='search' shrink>
+          Name
+        </InputLabel>
         <Input
           placeholder=''
           id='search'
@@ -13,7 +15,7 @@ function SearchControl ({ searchValue, setSearchValue }) {
         />
       </FormControl>
     </Container>
-  );
+  )
 }
 
-export default SearchControl;
+export default SearchControl

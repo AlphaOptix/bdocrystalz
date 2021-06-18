@@ -1,1554 +1,1554 @@
 [
-    {
-      "id": "15001",
-      "name": "Magic Crystal of Crimson Flame - Precision",
-      "grade": "1",
-      "socket": "Weapon",
-      "effect": "All Accuracy +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15002",
-      "name": "Magic Crystal of Crimson Flame - Power",
-      "grade": "1",
-      "socket": "Weapon",
-      "effect": "All AP +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15003",
-      "name": "Magic Crystal of Crimson Flame - Carnage",
-      "grade": "1",
-      "socket": "Any",
-      "effect": "Additional Damage to Demihumans +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15004",
-      "name": "Magic Crystal of Crimson Flame - Carnage",
-      "grade": "1",
-      "socket": "Any",
-      "effect": "Additional Damage to Humans +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15005",
-      "name": "Magic Crystal of Crimson Flame - Carnage",
-      "grade": "1",
-      "socket": "Any",
-      "effect": "Additional Damage to Beasts +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15006",
-      "name": "Magic Crystal of Abundance - Armor",
-      "grade": "1",
-      "socket": "Any",
-      "effect": "All Damage Reduction +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15007",
-      "name": "Magic Crystal of Abundance - Vigor",
-      "grade": "1",
-      "socket": "Armor",
-      "effect": "Max HP +25",
-      "breakChance": "High"
-    },
-    {
-      "id": "15008",
-      "name": "Magic Crystal of Abundance - Patience",
-      "grade": "1",
-      "socket": "Armor",
-      "effect": "Max MP/WP/SP +25",
-      "breakChance": "High"
-    },
-    {
-      "id": "15009",
-      "name": "Magic Crystal of Abundance - Healing",
-      "grade": "1",
-      "socket": "Armor",
-      "effect": "HP Recovery +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15010",
-      "name": "Magic Crystal of Abundance - Resonance",
-      "grade": "1",
-      "socket": "Armor",
-      "effect": "MP/WP/SP Recovery +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15011",
-      "name": "Magic Crystal of Nature - Swiftness",
-      "grade": "1",
-      "socket": "Shoes",
-      "effect": "Movement Speed +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15012",
-      "name": "Magic Crystal of Nature - Adamantine",
-      "grade": "1",
-      "socket": "Shoes",
-      "effect": "Knockback/Floating Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15013",
-      "name": "Magic Crystal of Nature - Ascension",
-      "grade": "1",
-      "socket": "Shoes",
-      "effect": "Jump Height +25",
-      "breakChance": "High"
-    },
-    {
-      "id": "15014",
-      "name": "Magic Crystal of the Sun - Assault",
-      "grade": "1",
-      "socket": "Gloves",
-      "effect": "Attack Speed +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15015",
-      "name": "Magic Crystal of the Sun - Sturdiness",
-      "grade": "1",
-      "socket": "Gloves",
-      "effect": "Grapple Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15016",
-      "name": "Magic Crystal of the Sun - Valor",
-      "grade": "1",
-      "socket": "Gloves",
-      "effect": "Critical Hit +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15017",
-      "name": "Magic Crystal of Enchantment - Memory",
-      "grade": "1",
-      "socket": "Helmet",
-      "effect": "Casting Speed +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15018",
-      "name": "Magic Crystal of Enchantment - Intimidation",
-      "grade": "1",
-      "socket": "Helmet",
-      "effect": "Knockdown/Bound Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15019",
-      "name": "Magic Crystal of Enchantment - Vision",
-      "grade": "1",
-      "socket": "Helmet",
-      "effect": "Vision Range +10m",
-      "breakChance": "High"
-    },
-    {
-      "id": "15020",
-      "name": "Magic Crystal of Enchantment - Agility",
-      "grade": "1",
-      "socket": "Helmet",
-      "effect": "All Evasion +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15021",
-      "name": "Magic Crystal of Perfection",
-      "grade": "3",
-      "socket": "Any",
-      "effect": "Luck +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15022",
-      "name": "Magic Crystal - Crimson Flame",
-      "grade": "3",
-      "socket": "Weapon",
-      "effect": "Critical Hit +1",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15023",
-      "name": "Magic Crystal - Enchantment",
-      "grade": "3",
-      "socket": "Weapon",
-      "effect": "Casting Speed +1",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15024",
-      "name": "Magic Crystal - Destruction",
-      "grade": "3",
-      "socket": "Weapon",
-      "effect": "Attack Speed +1",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15025",
-      "name": "Magic Crystal - Temptation",
-      "grade": "3",
-      "socket": "Weapon",
-      "effect": "Attack Speed +2, Critical Hit -1",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15026",
-      "name": "Magic Crystal - Agony",
-      "grade": "3",
-      "socket": "Weapon",
-      "effect": "Critical Hit +2, Attack Speed -1",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15027",
-      "name": "Magic Crystal of Nature - Descent",
-      "grade": "1",
-      "socket": "Shoes",
-      "effect": "Fall Damage -10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15028",
-      "name": "Magic Crystal of Nature - Endurance",
-      "grade": "1",
-      "socket": "Shoes",
-      "effect": "Max Stamina +100",
-      "breakChance": "High"
-    },
-    {
-      "id": "15029",
-      "name": "Magic Crystal of the Sun - Precision",
-      "grade": "1",
-      "socket": "Gloves",
-      "effect": "All Accuracy +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15030",
-      "name": "Magic Crystal of the Sun - Boulder",
-      "grade": "1",
-      "socket": "Gloves",
-      "effect": "Weight Limit +10LT",
-      "breakChance": "High"
-    },
-    {
-      "id": "15031",
-      "name": "Magic Crystal of Enchantment - Experience",
-      "grade": "1",
-      "socket": "Helmet",
-      "effect": "Combat EXP +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15032",
-      "name": "Magic Crystal - Meditation",
-      "grade": "3",
-      "socket": "Weapon",
-      "effect": "Casting Speed +2, Critical Hit -1",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15033",
-      "name": "Magic Crystal of Abundance - Relaxation",
-      "grade": "1",
-      "socket": "Any",
-      "effect": "Additional Damage to \"Ferocious\" Monsters +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15034",
-      "name": "Dim Magical Crystal: Karma",
-      "grade": "0",
-      "socket": "Helmet",
-      "effect": "Karma Recovery +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15035",
-      "name": "Dim Magical Crystal: Combat",
-      "grade": "0",
-      "socket": "Helmet",
-      "effect": "Combat EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15036",
-      "name": "Dim Magical Crystal: Gathering",
-      "grade": "0",
-      "socket": "Armor",
-      "effect": "Gathering EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15037",
-      "name": "Dim Magical Crystal: Fishing",
-      "grade": "0",
-      "socket": "Armor",
-      "effect": "Fishing EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15038",
-      "name": "Dim Magical Crystal: Hunting",
-      "grade": "0",
-      "socket": "Armor",
-      "effect": "Hunting EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15039",
-      "name": "Dim Magical Crystal: Cooking",
-      "grade": "0",
-      "socket": "Armor",
-      "effect": "Cooking EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15040",
-      "name": "Dim Magical Crystal: Alchemy",
-      "grade": "0",
-      "socket": "Armor",
-      "effect": "Alchemy EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15041",
-      "name": "Dim Magical Crystal: Processing",
-      "grade": "0",
-      "socket": "Armor",
-      "effect": "Processing EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15042",
-      "name": "Dim Magical Crystal: Training",
-      "grade": "0",
-      "socket": "Armor",
-      "effect": "Training EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15043",
-      "name": "Dim Magical Crystal: Trade",
-      "grade": "0",
-      "socket": "Armor",
-      "effect": "Trade EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15044",
-      "name": "Dim Magical Crystal: Farming",
-      "grade": "0",
-      "socket": "Armor",
-      "effect": "Farming EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15045",
-      "name": "Dim Magical Crystal: Sail",
-      "grade": "0",
-      "socket": "Armor",
-      "effect": "Sailing EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15101",
-      "name": "Magic Crystal of Infinity - Precision",
-      "grade": "2",
-      "socket": "Weapon",
-      "effect": "All Accuracy +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15102",
-      "name": "Magic Crystal of Infinity - Power",
-      "grade": "2",
-      "socket": "Weapon",
-      "effect": "All AP +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15103",
-      "name": "Magic Crystal of Infinity - Carnage",
-      "grade": "2",
-      "socket": "Any",
-      "effect": "Additional Damage to Demihumans +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15104",
-      "name": "Magic Crystal of Infinity - Carnage",
-      "grade": "2",
-      "socket": "Any",
-      "effect": "Additional Damage to Humans +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15105",
-      "name": "Magic Crystal of Infinity - Carnage",
-      "grade": "2",
-      "socket": "Any",
-      "effect": "Additional Damage to Beasts +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15106",
-      "name": "Magic Crystal of Infinity - Armor",
-      "grade": "2",
-      "socket": "Any",
-      "effect": "All Damage Reduction +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15107",
-      "name": "Magic Crystal of Infinity - Vigor",
-      "grade": "2",
-      "socket": "Armor",
-      "effect": "Max HP +35",
-      "breakChance": "High"
-    },
-    {
-      "id": "15108",
-      "name": "Magic Crystal of Infinity - Patience",
-      "grade": "2",
-      "socket": "Armor",
-      "effect": "Max MP/WP/SP +35",
-      "breakChance": "High"
-    },
-    {
-      "id": "15109",
-      "name": "Magic Crystal of Infinity - Heal",
-      "grade": "2",
-      "socket": "Armor",
-      "effect": "HP Recovery +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15110",
-      "name": "Magic Crystal of Infinity - Resonance",
-      "grade": "2",
-      "socket": "Armor",
-      "effect": "MP/WP/SP Recovery +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15111",
-      "name": "Magic Crystal of Infinity - Swiftness",
-      "grade": "2",
-      "socket": "Shoes",
-      "effect": "Movement Speed +2",
-      "breakChance": "Very High"
-    },
-    {
-      "id": "15112",
-      "name": "Magic Crystal of Infinity - Adamantine",
-      "grade": "2",
-      "socket": "Shoes",
-      "effect": "Knockback/Floating Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15113",
-      "name": "Magic Crystal of Infinity - Ascension",
-      "grade": "2",
-      "socket": "Shoes",
-      "effect": "Jump Height +35",
-      "breakChance": "High"
-    },
-    {
-      "id": "15114",
-      "name": "Magic Crystal of Infinity - Descent",
-      "grade": "2",
-      "socket": "Shoes",
-      "effect": "Fall Damage -15%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15115",
-      "name": "Magic Crystal of Infinity - Endurance",
-      "grade": "2",
-      "socket": "Shoes",
-      "effect": "Max Stamina +150",
-      "breakChance": "High"
-    },
-    {
-      "id": "15116",
-      "name": "Magic Crystal of Infinity - Assault",
-      "grade": "2",
-      "socket": "Gloves",
-      "effect": "Attack Speed +2",
-      "breakChance": "Very High"
-    },
-    {
-      "id": "15117",
-      "name": "Magic Crystal of Infinity - Sturdiness",
-      "grade": "2",
-      "socket": "Gloves",
-      "effect": "Grapple Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15118",
-      "name": "Magic Crystal of Infinity - Valor",
-      "grade": "2",
-      "socket": "Gloves",
-      "effect": "Critical Hit +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15119",
-      "name": "Magic Crystal of Infinity - Precision",
-      "grade": "2",
-      "socket": "Gloves",
-      "effect": "All Accuracy +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15120",
-      "name": "Magic Crystal of Infinity - Strength",
-      "grade": "2",
-      "socket": "Gloves",
-      "effect": "Weight Limit +15LT",
-      "breakChance": "High"
-    },
-    {
-      "id": "15121",
-      "name": "Magic Crystal of Infinity - Memory",
-      "grade": "2",
-      "socket": "Helmet",
-      "effect": "Casting Speed +2",
-      "breakChance": "Very High"
-    },
-    {
-      "id": "15122",
-      "name": "Magic Crystal of Infinity - Intimidation",
-      "grade": "2",
-      "socket": "Helmet",
-      "effect": "Knockdown/Bound Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15123",
-      "name": "Magic Crystal of Infinity - Vision",
-      "grade": "2",
-      "socket": "Helmet",
-      "effect": "Vision Range +15m",
-      "breakChance": "High"
-    },
-    {
-      "id": "15124",
-      "name": "Magic Crystal of Infinity - Agility",
-      "grade": "2",
-      "socket": "Helmet",
-      "effect": "All Evasion +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15125",
-      "name": "Magic Crystal of Infinity - Experience",
-      "grade": "2",
-      "socket": "Helmet",
-      "effect": "Combat EXP +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15126",
-      "name": "Magic Crystal of Infinity - Durability",
-      "grade": "2",
-      "socket": "Weapon",
-      "effect": "Durability Reduction Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15127",
-      "name": "Magic Crystal of Infinity - Absorption",
-      "grade": "2",
-      "socket": "Weapon",
-      "effect": "HP Recovery +1 on Attack",
-      "breakChance": "High"
-    },
-    {
-      "id": "15128",
-      "name": "Magic Crystal of Infinity - Extraction",
-      "grade": "2",
-      "socket": "Weapon",
-      "effect": "MP/WP/SP Recovery +1 on Attack",
-      "breakChance": "High"
-    },
-    {
-      "id": "15129",
-      "name": "Magic Crystal of Infinity - Back Attack",
-      "grade": "2",
-      "socket": "Secondary Weapon",
-      "effect": "Back Attack Damage +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15130",
-      "name": "Magic Crystal of Infinity - Down Attack",
-      "grade": "2",
-      "socket": "Secondary Weapon",
-      "effect": "Down Attack Damage +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15131",
-      "name": "Magic Crystal of Infinity - Air Attack",
-      "grade": "2",
-      "socket": "Secondary Weapon",
-      "effect": "Air Attack Damage +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15132",
-      "name": "Magic Crystal of Infinity - Critical Hit",
-      "grade": "2",
-      "socket": "Secondary Weapon",
-      "effect": "Critical Hit Damage +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15133",
-      "name": "Magic Crystal of Infinity - Speed Attack",
-      "grade": "2",
-      "socket": "Secondary Weapon",
-      "effect": "Speed Attack Damage +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15134",
-      "name": "Magic Crystal of Infinity - Counter Attack",
-      "grade": "2",
-      "socket": "Secondary Weapon",
-      "effect": "Counter Attack Damage +1",
-      "breakChance": "High"
-    },
-    {
-      "id": "15135",
-      "name": "Magic Crystal of Infinity - Siege",
-      "grade": "2",
-      "socket": "Armor",
-      "effect": "Siege Weapon Evasion +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15136",
-      "name": "Magic Crystal of Infinity - Evasion",
-      "grade": "2",
-      "socket": "Armor",
-      "effect": "Special Attack Evasion Rate +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15137",
-      "name": "Magic Crystal of Infinity - Melee Defense",
-      "grade": "2",
-      "socket": "Armor",
-      "effect": "Melee Damage Reduction +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15138",
-      "name": "Magic Crystal of Infinity - Ranged Defense",
-      "grade": "2",
-      "socket": "Armor",
-      "effect": "Ranged Damage Reduction +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15139",
-      "name": "Magic Crystal of Infinity - Magic Defense",
-      "grade": "2",
-      "socket": "Armor",
-      "effect": "Magic Damage Reduction +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15146",
-      "name": "Magic Crystal of Infinity - Energy",
-      "grade": "2",
-      "socket": "Shoes",
-      "effect": "Max Energy +10",
-      "breakChance": "Very High"
-    },
-    {
-      "id": "15147",
-      "name": "Magic Crystal of Infinity - Submergence",
-      "grade": "2",
-      "socket": "Shoes",
-      "effect": "Breath Gauge +15sec",
-      "breakChance": "High"
-    },
-    {
-      "id": "15148",
-      "name": "Magic Crystal of Infinity - Melee Attack",
-      "grade": "2",
-      "socket": "Gloves",
-      "effect": "Melee AP +2",
-      "breakChance": "Very High"
-    },
-    {
-      "id": "15149",
-      "name": "Magic Crystal of Infinity - Ranged Attack",
-      "grade": "2",
-      "socket": "Gloves",
-      "effect": "Ranged AP +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15150",
-      "name": "Magic Crystal of Infinity - Magic Attack",
-      "grade": "2",
-      "socket": "Gloves",
-      "effect": "Magic AP +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15151",
-      "name": "Magic Crystal of Infinity - Ignore Knockback Resistance",
-      "grade": "2",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Knockback Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15152",
-      "name": "Magic Crystal of Infinity - Ignore Knockdown Resistance",
-      "grade": "2",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Knockdown Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15153",
-      "name": "Magic Crystal of Infinity - Ignore Grapple Resistance",
-      "grade": "2",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Grapple Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15154",
-      "name": "Magic Crystal of Infinity - Ignore Stun Resistance",
-      "grade": "2",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Stun Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15201",
-      "name": "Black Magic Crystal - Precision",
-      "grade": "3",
-      "socket": "Weapon",
-      "effect": "All Accuracy +8, Ignore All Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15202",
-      "name": "Black Magic Crystal - Power",
-      "grade": "3",
-      "socket": "Weapon",
-      "effect": "All AP +2, Ignore All Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15203",
-      "name": "Black Magic Crystal - Carnage",
-      "grade": "3",
-      "socket": "Any",
-      "effect": "Additional Damage to Demihumans +2, Ignore All Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15204",
-      "name": "Black Magic Crystal - Carnage",
-      "grade": "3",
-      "socket": "Any",
-      "effect": "Additional Damage to Humans +2, Ignore All Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15205",
-      "name": "Black Magic Crystal - Carnage",
-      "grade": "3",
-      "socket": "Any",
-      "effect": "Additional Damage to Beasts +2, Ignore All Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15206",
-      "name": "Black Magic Crystal - Armor",
-      "grade": "3",
-      "socket": "Armor",
-      "effect": "All Damage Reduction +2, Stun/Stiffness/Freezing Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15207",
-      "name": "Black Magic Crystal - Vigor",
-      "grade": "3",
-      "socket": "Armor",
-      "effect": "Max HP +50, Stun/Stiffness/Freezing Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15208",
-      "name": "Black Magic Crystal - Patience",
-      "grade": "3",
-      "socket": "Armor",
-      "effect": "Max MP/WP/SP +50, Stun/Stiffness/Freezing Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15209",
-      "name": "Black Magic Crystal - Healing",
-      "grade": "3",
-      "socket": "Armor",
-      "effect": "HP Recovery +5",
-      "breakChance": "High"
-    },
-    {
-      "id": "15210",
-      "name": "Black Magic Crystal - Resonance",
-      "grade": "3",
-      "socket": "Armor",
-      "effect": "MP/WP/SP Recovery +5, Stun/Stiffness/Freezing Resistance 10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15211",
-      "name": "Black Magic Crystal - Swiftness",
-      "grade": "3",
-      "socket": "Shoes",
-      "effect": "Movement Speed +2, Knockback/Floating Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15212",
-      "name": "Black Magic Crystal - Adamantine",
-      "grade": "3",
-      "socket": "Shoes",
-      "effect": "Knockback/Floating Resistance +10%, Knockdown/Bound Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15213",
-      "name": "Black Magic Crystal - Ascension",
-      "grade": "3",
-      "socket": "Shoes",
-      "effect": "Jump Height +35, Knockback/Floating Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15214",
-      "name": "Black Magic Crystal - Descent",
-      "grade": "3",
-      "socket": "Shoes",
-      "effect": "Fall Damage -15%, Knockback/Floating Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15215",
-      "name": "Black Magic Crystal - Endurance",
-      "grade": "3",
-      "socket": "Shoes",
-      "effect": "Max Stamina +250",
-      "breakChance": "High"
-    },
-    {
-      "id": "15216",
-      "name": "Black Magic Crystal - Assault",
-      "grade": "3",
-      "socket": "Gloves",
-      "effect": "Attack Speed +2, Grapple Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15217",
-      "name": "Black Magic Crystal - Sturdiness",
-      "grade": "3",
-      "socket": "Gloves",
-      "effect": "Grapple Resistance +10%, Knockback/Floating Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15218",
-      "name": "Black Magic Crystal - Valor",
-      "grade": "3",
-      "socket": "Gloves",
-      "effect": "Critical Hit +2, Grapple Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15219",
-      "name": "Black Magic Crystal - Precision",
-      "grade": "3",
-      "socket": "Gloves",
-      "effect": "All Accuracy +8, Grapple Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15221",
-      "name": "Black Magic Crystal - Memory",
-      "grade": "3",
-      "socket": "Helmet",
-      "effect": "Casting Speed +2, Knockdown/Bound Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15222",
-      "name": "Black Magic Crystal - Intimidation",
-      "grade": "3",
-      "socket": "Helmet",
-      "effect": "Knockdown/Bound Resistance +10%, Stun/Stiffness/Freezing Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15223",
-      "name": "Black Magic Crystal - Vision",
-      "grade": "3",
-      "socket": "Helmet",
-      "effect": "Vision Range +15m, Knockdown/Bound Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15224",
-      "name": "Black Magic Crystal - Agility",
-      "grade": "3",
-      "socket": "Helmet",
-      "effect": "All Evasion +2, Knockdown/Bound Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15601",
-      "name": "Ancient Magic Crystal - Harphia",
-      "grade": "4",
-      "socket": "Helmet",
-      "effect": "Max HP +50, HP Recovery +5",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15602",
-      "name": "Ancient Magic Crystal - Cobelinus",
-      "grade": "4",
-      "socket": "Armor",
-      "effect": "Max HP +100, Weight Limit +20LT",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15603",
-      "name": "Ancient Magic Crystal - Viper",
-      "grade": "4",
-      "socket": "Gloves",
-      "effect": "Attack Speed +1, Casting Speed +1",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15604",
-      "name": "Ancient Magic Crystal - Hystria",
-      "grade": "4",
-      "socket": "Shoes",
-      "effect": "Weight Limit +20LT, Movement Speed +1",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15605",
-      "name": "Ancient Magic Crystal - Carmae",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +1, Attack Speed +1",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15606",
-      "name": "Ancient Magic Crystal of Crimson Flame - Power",
-      "grade": "3",
-      "socket": "Weapon",
-      "effect": "All AP +5",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15610",
-      "name": "Ancient Magic Crystal of Abundance - Armor",
-      "grade": "3",
-      "socket": "Armor",
-      "effect": "All Damage Reduction +5",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15613",
-      "name": "Ancient Magic Crystal of Abundance- Healing",
-      "grade": "3",
-      "socket": "Armor",
-      "effect": "Max HP +50, HP Recovery +3",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15614",
-      "name": "Ancient Magic Crystal of Abundance - Resonance",
-      "grade": "3",
-      "socket": "Armor",
-      "effect": "Max MP/WP/SP +50, MP/WP/SP Recovery +3",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15616",
-      "name": "Ancient Magic Crystal of Nature - Adamantine",
-      "grade": "3",
-      "socket": "Shoes",
-      "effect": "Knockdown/Bound Resistance +25%",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15624",
-      "name": "Ancient Magic Crystal of Enchantment - Agility",
-      "grade": "3",
-      "socket": "Helmet",
-      "effect": "All Evasion +5",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15626",
-      "name": "Black Spirit Crystal",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Max HP +100, All AP +5",
-      "breakChance": "High"
-    },
-    {
-      "id": "15627",
-      "name": "Awakened Spirit's Crystal",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Max HP +150, All AP +5",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15628",
-      "name": "Black Magic Crystal - Harphia",
-      "grade": "4",
-      "socket": "Helmet",
-      "effect": "Max HP +50, HP Recovery +5, All Evasion +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15629",
-      "name": "Black Magic Crystal - Cobelinus",
-      "grade": "4",
-      "socket": "Armor",
-      "effect": "Max HP +100, Weight Limit +20LT, All Damage Reduction +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15630",
-      "name": "Black Magic Crystal - Viper",
-      "grade": "4",
-      "socket": "Gloves",
-      "effect": "Attack Speed +1, Casting Speed +1, All Accuracy +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15631",
-      "name": "Black Magic Crystal - Hystria",
-      "grade": "4",
-      "socket": "Shoes",
-      "effect": "Weight Limit +20LT, Movement Speed +1, Max Stamina +150",
-      "breakChance": "High"
-    },
-    {
-      "id": "15632",
-      "name": "Black Magic Crystal - Carmae",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +1, Attack Speed +1, All AP +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15633",
-      "name": "Red Spirit Crystal",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Max HP +100, All AP +5, Additional Damage to Humans +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15634",
-      "name": "Red Battlefield Crystal: Harphia",
-      "grade": "4",
-      "socket": "Helmet",
-      "effect": "Max HP +50, HP Recovery +5, Additional Damage to Humans +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15635",
-      "name": "Red Battlefield Crystal: Cobelinus",
-      "grade": "4",
-      "socket": "Armor",
-      "effect": "Max HP +100, Weight Limit +20LT, Additional Damage to Humans +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15636",
-      "name": "Red Battlefield Crystal: Viper",
-      "grade": "4",
-      "socket": "Gloves",
-      "effect": "Attack Speed +1, Casting Speed +1, Additional Damage to Humans +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15637",
-      "name": "Red Battlefield Crystal: Hystria",
-      "grade": "4",
-      "socket": "Shoes",
-      "effect": "Weight Limit +20LT, Movement Speed +1, Additional Damage to Humans +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15638",
-      "name": "Red Battlefield Crystal: Carmae",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +1, Attack Speed +1, Additional Damage to Humans +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15639",
-      "name": "Red Battlefield Crystal: Power",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "All AP +5, Additional Damage to Humans +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15640",
-      "name": "Red Battlefield Crystal: Adamantine",
-      "grade": "4",
-      "socket": "Shoes",
-      "effect": "Knockdown/Bound Resistance +25%, Stun/Stiffness/Freezing Resistance +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15641",
-      "name": "Ancient Spirit's Crystal - Swiftness",
-      "grade": "4",
-      "socket": "Costume",
-      "effect": "Movement Speed +2",
-      "breakChance": "None"
-    },
-    {
-      "id": "15649",
-      "name": "Ancient Magic Crystal - Addis",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +1, Casting Speed +1",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15650",
-      "name": "Black Magic Crystal - Addis",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +1, Casting Speed +1, All AP +2",
-      "breakChance": "High"
-    },
-    {
-      "id": "15651",
-      "name": "Red Battlefield Crystal - Addis",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +1, Casting Speed +1, Additional Damage to Humans +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15652",
-      "name": "Ancient Spirit's Crystal - Valor",
-      "grade": "4",
-      "socket": "Costume",
-      "effect": "Critical Hit +1",
-      "breakChance": "None"
-    },
-    {
-      "id": "15653",
-      "name": "Ancient Spirit's Crystal - Viper",
-      "grade": "4",
-      "socket": "Costume",
-      "effect": "Attack Speed +1, Casting Speed +1",
-      "breakChance": "None"
-    },
-    {
-      "id": "15654",
-      "name": "Valtarra Spirit's Crystal",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Max HP +150, All AP +5, Extra Damage Against Kamasylvian Monsters +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15662",
-      "name": "Combined Magic Crystal - Gervish",
-      "grade": "4",
-      "socket": "Any",
-      "effect": "- 2 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, , - 4 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, Combat EXP +5%, Skill EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15663",
-      "name": "Combined Magic Crystal - Macalod",
-      "grade": "4",
-      "socket": "Any",
-      "effect": "- 2 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, , - 4 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, Combat EXP +5%, Ignore All Resistance +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15664",
-      "name": "Combined Magic Crystal - Hoom",
-      "grade": "4",
-      "socket": "Any",
-      "effect": "- 2 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, , - 4 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, All Accuracy +8, Ignore All Resistance +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15665",
-      "name": "HAN Magic Crystal - Gervish",
-      "grade": "4",
-      "socket": "Any",
-      "effect": "Combat EXP +1%, Skill EXP +1%, Weight Limit +15LT, , - 2 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, , - 4 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, Combat EXP +5%, Skill EXP +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15666",
-      "name": "HAN Magic Crystal - Macalod",
-      "grade": "4",
-      "socket": "Any",
-      "effect": "Combat EXP +1%, Ignore All Resistance +1%, Max Stamina +20, , - 2 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, , - 4 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, Combat EXP +5%, Ignore All Resistance +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15667",
-      "name": "HAN Magic Crystal - Hoom",
-      "grade": "4",
-      "socket": "Any",
-      "effect": "All Accuracy +2, All Resistance +1, Max HP +30, , - 2 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, , - 4 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, All Accuracy +8, All Resistance +3%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15669",
-      "name": "Dark Red Fang Crystal - Valor",
-      "grade": "4",
-      "socket": "Gloves",
-      "effect": "Critical Hit +2, All AP +5",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15670",
-      "name": "Dark Red Fang Crystal - Armor",
-      "grade": "4",
-      "socket": "Armor",
-      "effect": "All Damage Reduction +7, All Resistance +2%",
-      "breakChance": "Low"
-    },
-    {
-      "id": "15672",
-      "name": "Corrupted Magic Crystal",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Critical Hit Damage +10%, All AP +2, All Damage Reduction -2, , - 2 crystal set effect, Critical Hit Damage +2%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15674",
-      "name": "Crystal of Elkarr",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "All Accuracy +12, Ignore All Resistance +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15675",
-      "name": "Ah'krad Crystal",
-      "grade": "4",
-      "socket": "Awakening Weapon",
-      "effect": "All Accuracy +3, Extra AP Against Monsters +5",
-      "breakChance": "High"
-    },
-    {
-      "id": "15676",
-      "name": "Olucas Crystal",
-      "grade": "4",
-      "socket": "Awakening Weapon",
-      "effect": "All Accuracy +3, Additional Damage to Humans +5",
-      "breakChance": "High"
-    },
-    {
-      "id": "15677",
-      "name": "Rebellious Spirit Crystal",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Max HP +175, All AP +5, Extra AP Against Monsters +5, Skill EXP +5%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15695",
-      "name": "WON Glorous Crystal of Courage - Ignore Knockback Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Knockback/Floating Resistance +10%, All AP +3, Max HP +50",
-      "breakChance": "High"
-    },
-    {
-      "id": "15696",
-      "name": "BON Glorous Crystal of Courage - Ignore Knockback Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Knockback/Floating Resistance +10%, All AP +2, Max HP +100",
-      "breakChance": "High"
-    },
-    {
-      "id": "15697",
-      "name": "JIN Glorous Crystal of Courage - Ignore Knockback Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Knockback/Floating Resistance +10%, All AP +3, Max HP +100",
-      "breakChance": "High"
-    },
-    {
-      "id": "15698",
-      "name": "WON Glorous Crystal of Courage - Ignore Knockdown Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +3, Max HP +50",
-      "breakChance": "High"
-    },
-    {
-      "id": "15699",
-      "name": "BON Glorous Crystal of Courage - Ignore Knockdown Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +2, Max HP +100",
-      "breakChance": "High"
-    },
-    {
-      "id": "15700",
-      "name": "JIN Glorous Crystal of Courage - Ignore Knockdown Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +3, Max HP +100",
-      "breakChance": "High"
-    },
-    {
-      "id": "15701",
-      "name": "WON Glorous Crystal of Courage - Ignore Grapple Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Grapple Resistance +10%, All AP +3, Max HP +50",
-      "breakChance": "High"
-    },
-    {
-      "id": "15702",
-      "name": "BON Glorous Crystal of Courage - Ignore Grapple Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Grapple Resistance +10%, All AP +2, Max HP +100",
-      "breakChance": "High"
-    },
-    {
-      "id": "15703",
-      "name": "JIN Glorous Crystal of Courage - Ignore Grapple Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Grapple Resistance +10%, All AP +3, Max HP +100",
-      "breakChance": "High"
-    },
-    {
-      "id": "15704",
-      "name": "WON Glorous Crystal of Courage - Ignore Stun Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +3, Max HP +50",
-      "breakChance": "High"
-    },
-    {
-      "id": "15705",
-      "name": "BON Glorous Crystal of Courage - Ignore Stun Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +2, Max HP +100",
-      "breakChance": "High"
-    },
-    {
-      "id": "15706",
-      "name": "JIN Glorous Crystal of Courage - Ignore Stun Resistance",
-      "grade": "4",
-      "socket": "Secondary Weapon",
-      "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +3, Max HP +100",
-      "breakChance": "High"
-    },
-    {
-      "id": "15801",
-      "name": "JIN Magic Crystal - Harphia",
-      "grade": "4",
-      "socket": "Helmet",
-      "effect": "Max HP +50, HP Recovery +5, All Evasion +20",
-      "breakChance": "High"
-    },
-    {
-      "id": "15802",
-      "name": "BON Magic Crystal - Harphia",
-      "grade": "4",
-      "socket": "Helmet",
-      "effect": "Max HP +75, HP Recovery +5, All Evasion +12",
-      "breakChance": "High"
-    },
-    {
-      "id": "15803",
-      "name": "WON Magic Crystal - Harphia",
-      "grade": "4",
-      "socket": "Helmet",
-      "effect": "Max HP +50, HP Recovery +10, All Evasion +12",
-      "breakChance": "High"
-    },
-    {
-      "id": "15804",
-      "name": "JIN Magic Crystal - Cobelinus",
-      "grade": "4",
-      "socket": "Armor",
-      "effect": "Max HP +100, Weight Limit +20LT, All Damage Reduction +5",
-      "breakChance": "High"
-    },
-    {
-      "id": "15805",
-      "name": "BON Magic Crystal - Cobelinus",
-      "grade": "4",
-      "socket": "Armor",
-      "effect": "Max HP +150, Weight Limit +20LT, All Damage Reduction +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15806",
-      "name": "WON Magic Crystal - Cobelinus",
-      "grade": "4",
-      "socket": "Armor",
-      "effect": "Max HP +100, Weight Limit +50LT, All Damage Reduction +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15807",
-      "name": "JIN Magic Crystal - Viper",
-      "grade": "4",
-      "socket": "Gloves",
-      "effect": "Attack Speed +1, Casting Speed +1, All Accuracy +20",
-      "breakChance": "High"
-    },
-    {
-      "id": "15808",
-      "name": "BON Magic Crystal - Viper",
-      "grade": "4",
-      "socket": "Gloves",
-      "effect": "Attack Speed +2, Casting Speed +1, All Accuracy +12",
-      "breakChance": "High"
-    },
-    {
-      "id": "15809",
-      "name": "WON Magic Crystal - Viper",
-      "grade": "4",
-      "socket": "Gloves",
-      "effect": "Attack Speed +1, Casting Speed +2, All Accuracy +12",
-      "breakChance": "High"
-    },
-    {
-      "id": "15810",
-      "name": "JIN Magic Crystal - Hystria",
-      "grade": "4",
-      "socket": "Shoes",
-      "effect": "Weight Limit +30LT, Movement Speed +1, Max Stamina +175",
-      "breakChance": "High"
-    },
-    {
-      "id": "15811",
-      "name": "BON Magic Crystal - Hystria",
-      "grade": "4",
-      "socket": "Shoes",
-      "effect": "Weight Limit +50LT, Movement Speed +1, Max Stamina +150",
-      "breakChance": "High"
-    },
-    {
-      "id": "15812",
-      "name": "WON Magic Crystal - Hystria",
-      "grade": "4",
-      "socket": "Shoes",
-      "effect": "Weight Limit +20LT, Movement Speed +2, Max Stamina +150",
-      "breakChance": "High"
-    },
-    {
-      "id": "15813",
-      "name": "JIN Magic Crystal - Carmae",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +1, Attack Speed +1, All AP +5",
-      "breakChance": "High"
-    },
-    {
-      "id": "15814",
-      "name": "BON Magic Crystal - Carmae",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +2, Attack Speed +1, All AP +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15815",
-      "name": "WON Magic Crystal - Carmae",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +1, Attack Speed +2, All AP +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15816",
-      "name": "JIN Magic Crystal - Addis",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +1, Casting Speed +1, All AP +5",
-      "breakChance": "High"
-    },
-    {
-      "id": "15817",
-      "name": "BON Magic Crystal - Addis",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +2, Casting Speed +1, All AP +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15818",
-      "name": "WON Magic Crystal - Addis",
-      "grade": "4",
-      "socket": "Weapon",
-      "effect": "Critical Hit +1, Casting Speed +2, All AP +3",
-      "breakChance": "High"
-    },
-    {
-      "id": "15851",
-      "name": "Kydict's Crystal - Adventure",
-      "grade": "4",
-      "socket": "Helmet",
-      "effect": "Max HP +50, HP Recovery +5, Combat EXP +10%",
-      "breakChance": "High"
-    },
-    {
-      "id": "15852",
-      "name": "Kydict's Crystal - Giant",
-      "grade": "4",
-      "socket": "Armor",
-      "effect": "Max HP +100, All Damage Reduction +2, Stun/Stiffness/Freezing Resistance +10%",
-      "breakChance": "High"
-    }
+  {
+    "id": "15001",
+    "name": "Magic Crystal of Crimson Flame - Precision",
+    "grade": "1",
+    "socket": "Weapon",
+    "effect": "All Accuracy +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15002",
+    "name": "Magic Crystal of Crimson Flame - Power",
+    "grade": "1",
+    "socket": "Weapon",
+    "effect": "All AP +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15003",
+    "name": "Magic Crystal of Crimson Flame - Carnage",
+    "grade": "1",
+    "socket": "Any",
+    "effect": "Additional Damage to Demihumans +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15004",
+    "name": "Magic Crystal of Crimson Flame - Carnage",
+    "grade": "1",
+    "socket": "Any",
+    "effect": "Additional Damage to Humans +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15005",
+    "name": "Magic Crystal of Crimson Flame - Carnage",
+    "grade": "1",
+    "socket": "Any",
+    "effect": "Additional Damage to Beasts +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15006",
+    "name": "Magic Crystal of Abundance - Armor",
+    "grade": "1",
+    "socket": "Any",
+    "effect": "All Damage Reduction +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15007",
+    "name": "Magic Crystal of Abundance - Vigor",
+    "grade": "1",
+    "socket": "Armor",
+    "effect": "Max HP +25",
+    "breakChance": "High"
+  },
+  {
+    "id": "15008",
+    "name": "Magic Crystal of Abundance - Patience",
+    "grade": "1",
+    "socket": "Armor",
+    "effect": "Max MP/WP/SP +25",
+    "breakChance": "High"
+  },
+  {
+    "id": "15009",
+    "name": "Magic Crystal of Abundance - Healing",
+    "grade": "1",
+    "socket": "Armor",
+    "effect": "HP Recovery +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15010",
+    "name": "Magic Crystal of Abundance - Resonance",
+    "grade": "1",
+    "socket": "Armor",
+    "effect": "MP/WP/SP Recovery +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15011",
+    "name": "Magic Crystal of Nature - Swiftness",
+    "grade": "1",
+    "socket": "Shoes",
+    "effect": "Movement Speed +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15012",
+    "name": "Magic Crystal of Nature - Adamantine",
+    "grade": "1",
+    "socket": "Shoes",
+    "effect": "Knockback/Floating Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15013",
+    "name": "Magic Crystal of Nature - Ascension",
+    "grade": "1",
+    "socket": "Shoes",
+    "effect": "Jump Height +25",
+    "breakChance": "High"
+  },
+  {
+    "id": "15014",
+    "name": "Magic Crystal of the Sun - Assault",
+    "grade": "1",
+    "socket": "Gloves",
+    "effect": "Attack Speed +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15015",
+    "name": "Magic Crystal of the Sun - Sturdiness",
+    "grade": "1",
+    "socket": "Gloves",
+    "effect": "Grapple Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15016",
+    "name": "Magic Crystal of the Sun - Valor",
+    "grade": "1",
+    "socket": "Gloves",
+    "effect": "Critical Hit +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15017",
+    "name": "Magic Crystal of Enchantment - Memory",
+    "grade": "1",
+    "socket": "Helmet",
+    "effect": "Casting Speed +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15018",
+    "name": "Magic Crystal of Enchantment - Intimidation",
+    "grade": "1",
+    "socket": "Helmet",
+    "effect": "Knockdown/Bound Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15019",
+    "name": "Magic Crystal of Enchantment - Vision",
+    "grade": "1",
+    "socket": "Helmet",
+    "effect": "Vision Range +10m",
+    "breakChance": "High"
+  },
+  {
+    "id": "15020",
+    "name": "Magic Crystal of Enchantment - Agility",
+    "grade": "1",
+    "socket": "Helmet",
+    "effect": "All Evasion +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15021",
+    "name": "Magic Crystal of Perfection",
+    "grade": "3",
+    "socket": "Any",
+    "effect": "Luck +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15022",
+    "name": "Magic Crystal - Crimson Flame",
+    "grade": "3",
+    "socket": "Weapon",
+    "effect": "Critical Hit +1",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15023",
+    "name": "Magic Crystal - Enchantment",
+    "grade": "3",
+    "socket": "Weapon",
+    "effect": "Casting Speed +1",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15024",
+    "name": "Magic Crystal - Destruction",
+    "grade": "3",
+    "socket": "Weapon",
+    "effect": "Attack Speed +1",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15025",
+    "name": "Magic Crystal - Temptation",
+    "grade": "3",
+    "socket": "Weapon",
+    "effect": "Attack Speed +2, Critical Hit -1",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15026",
+    "name": "Magic Crystal - Agony",
+    "grade": "3",
+    "socket": "Weapon",
+    "effect": "Critical Hit +2, Attack Speed -1",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15027",
+    "name": "Magic Crystal of Nature - Descent",
+    "grade": "1",
+    "socket": "Shoes",
+    "effect": "Fall Damage -10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15028",
+    "name": "Magic Crystal of Nature - Endurance",
+    "grade": "1",
+    "socket": "Shoes",
+    "effect": "Max Stamina +100",
+    "breakChance": "High"
+  },
+  {
+    "id": "15029",
+    "name": "Magic Crystal of the Sun - Precision",
+    "grade": "1",
+    "socket": "Gloves",
+    "effect": "All Accuracy +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15030",
+    "name": "Magic Crystal of the Sun - Boulder",
+    "grade": "1",
+    "socket": "Gloves",
+    "effect": "Weight Limit +10LT",
+    "breakChance": "High"
+  },
+  {
+    "id": "15031",
+    "name": "Magic Crystal of Enchantment - Experience",
+    "grade": "1",
+    "socket": "Helmet",
+    "effect": "Combat EXP +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15032",
+    "name": "Magic Crystal - Meditation",
+    "grade": "3",
+    "socket": "Weapon",
+    "effect": "Casting Speed +2, Critical Hit -1",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15033",
+    "name": "Magic Crystal of Abundance - Relaxation",
+    "grade": "1",
+    "socket": "Any",
+    "effect": "Additional Damage to \"Ferocious\" Monsters +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15034",
+    "name": "Dim Magical Crystal: Karma",
+    "grade": "0",
+    "socket": "Helmet",
+    "effect": "Karma Recovery +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15035",
+    "name": "Dim Magical Crystal: Combat",
+    "grade": "0",
+    "socket": "Helmet",
+    "effect": "Combat EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15036",
+    "name": "Dim Magical Crystal: Gathering",
+    "grade": "0",
+    "socket": "Armor",
+    "effect": "Gathering EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15037",
+    "name": "Dim Magical Crystal: Fishing",
+    "grade": "0",
+    "socket": "Armor",
+    "effect": "Fishing EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15038",
+    "name": "Dim Magical Crystal: Hunting",
+    "grade": "0",
+    "socket": "Armor",
+    "effect": "Hunting EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15039",
+    "name": "Dim Magical Crystal: Cooking",
+    "grade": "0",
+    "socket": "Armor",
+    "effect": "Cooking EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15040",
+    "name": "Dim Magical Crystal: Alchemy",
+    "grade": "0",
+    "socket": "Armor",
+    "effect": "Alchemy EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15041",
+    "name": "Dim Magical Crystal: Processing",
+    "grade": "0",
+    "socket": "Armor",
+    "effect": "Processing EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15042",
+    "name": "Dim Magical Crystal: Training",
+    "grade": "0",
+    "socket": "Armor",
+    "effect": "Training EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15043",
+    "name": "Dim Magical Crystal: Trade",
+    "grade": "0",
+    "socket": "Armor",
+    "effect": "Trade EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15044",
+    "name": "Dim Magical Crystal: Farming",
+    "grade": "0",
+    "socket": "Armor",
+    "effect": "Farming EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15045",
+    "name": "Dim Magical Crystal: Sail",
+    "grade": "0",
+    "socket": "Armor",
+    "effect": "Sailing EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15101",
+    "name": "Magic Crystal of Infinity - Precision",
+    "grade": "2",
+    "socket": "Weapon",
+    "effect": "All Accuracy +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15102",
+    "name": "Magic Crystal of Infinity - Power",
+    "grade": "2",
+    "socket": "Weapon",
+    "effect": "All AP +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15103",
+    "name": "Magic Crystal of Infinity - Carnage",
+    "grade": "2",
+    "socket": "Any",
+    "effect": "Additional Damage to Demihumans +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15104",
+    "name": "Magic Crystal of Infinity - Carnage",
+    "grade": "2",
+    "socket": "Any",
+    "effect": "Additional Damage to Humans +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15105",
+    "name": "Magic Crystal of Infinity - Carnage",
+    "grade": "2",
+    "socket": "Any",
+    "effect": "Additional Damage to Beasts +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15106",
+    "name": "Magic Crystal of Infinity - Armor",
+    "grade": "2",
+    "socket": "Any",
+    "effect": "All Damage Reduction +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15107",
+    "name": "Magic Crystal of Infinity - Vigor",
+    "grade": "2",
+    "socket": "Armor",
+    "effect": "Max HP +35",
+    "breakChance": "High"
+  },
+  {
+    "id": "15108",
+    "name": "Magic Crystal of Infinity - Patience",
+    "grade": "2",
+    "socket": "Armor",
+    "effect": "Max MP/WP/SP +35",
+    "breakChance": "High"
+  },
+  {
+    "id": "15109",
+    "name": "Magic Crystal of Infinity - Heal",
+    "grade": "2",
+    "socket": "Armor",
+    "effect": "HP Recovery +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15110",
+    "name": "Magic Crystal of Infinity - Resonance",
+    "grade": "2",
+    "socket": "Armor",
+    "effect": "MP/WP/SP Recovery +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15111",
+    "name": "Magic Crystal of Infinity - Swiftness",
+    "grade": "2",
+    "socket": "Shoes",
+    "effect": "Movement Speed +2",
+    "breakChance": "Very High"
+  },
+  {
+    "id": "15112",
+    "name": "Magic Crystal of Infinity - Adamantine",
+    "grade": "2",
+    "socket": "Shoes",
+    "effect": "Knockback/Floating Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15113",
+    "name": "Magic Crystal of Infinity - Ascension",
+    "grade": "2",
+    "socket": "Shoes",
+    "effect": "Jump Height +35",
+    "breakChance": "High"
+  },
+  {
+    "id": "15114",
+    "name": "Magic Crystal of Infinity - Descent",
+    "grade": "2",
+    "socket": "Shoes",
+    "effect": "Fall Damage -15%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15115",
+    "name": "Magic Crystal of Infinity - Endurance",
+    "grade": "2",
+    "socket": "Shoes",
+    "effect": "Max Stamina +150",
+    "breakChance": "High"
+  },
+  {
+    "id": "15116",
+    "name": "Magic Crystal of Infinity - Assault",
+    "grade": "2",
+    "socket": "Gloves",
+    "effect": "Attack Speed +2",
+    "breakChance": "Very High"
+  },
+  {
+    "id": "15117",
+    "name": "Magic Crystal of Infinity - Sturdiness",
+    "grade": "2",
+    "socket": "Gloves",
+    "effect": "Grapple Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15118",
+    "name": "Magic Crystal of Infinity - Valor",
+    "grade": "2",
+    "socket": "Gloves",
+    "effect": "Critical Hit +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15119",
+    "name": "Magic Crystal of Infinity - Precision",
+    "grade": "2",
+    "socket": "Gloves",
+    "effect": "All Accuracy +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15120",
+    "name": "Magic Crystal of Infinity - Strength",
+    "grade": "2",
+    "socket": "Gloves",
+    "effect": "Weight Limit +15LT",
+    "breakChance": "High"
+  },
+  {
+    "id": "15121",
+    "name": "Magic Crystal of Infinity - Memory",
+    "grade": "2",
+    "socket": "Helmet",
+    "effect": "Casting Speed +2",
+    "breakChance": "Very High"
+  },
+  {
+    "id": "15122",
+    "name": "Magic Crystal of Infinity - Intimidation",
+    "grade": "2",
+    "socket": "Helmet",
+    "effect": "Knockdown/Bound Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15123",
+    "name": "Magic Crystal of Infinity - Vision",
+    "grade": "2",
+    "socket": "Helmet",
+    "effect": "Vision Range +15m",
+    "breakChance": "High"
+  },
+  {
+    "id": "15124",
+    "name": "Magic Crystal of Infinity - Agility",
+    "grade": "2",
+    "socket": "Helmet",
+    "effect": "All Evasion +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15125",
+    "name": "Magic Crystal of Infinity - Experience",
+    "grade": "2",
+    "socket": "Helmet",
+    "effect": "Combat EXP +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15126",
+    "name": "Magic Crystal of Infinity - Durability",
+    "grade": "2",
+    "socket": "Weapon",
+    "effect": "Durability Reduction Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15127",
+    "name": "Magic Crystal of Infinity - Absorption",
+    "grade": "2",
+    "socket": "Weapon",
+    "effect": "HP Recovery +1 on Attack",
+    "breakChance": "High"
+  },
+  {
+    "id": "15128",
+    "name": "Magic Crystal of Infinity - Extraction",
+    "grade": "2",
+    "socket": "Weapon",
+    "effect": "MP/WP/SP Recovery +1 on Attack",
+    "breakChance": "High"
+  },
+  {
+    "id": "15129",
+    "name": "Magic Crystal of Infinity - Back Attack",
+    "grade": "2",
+    "socket": "Secondary Weapon",
+    "effect": "Back Attack Damage +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15130",
+    "name": "Magic Crystal of Infinity - Down Attack",
+    "grade": "2",
+    "socket": "Secondary Weapon",
+    "effect": "Down Attack Damage +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15131",
+    "name": "Magic Crystal of Infinity - Air Attack",
+    "grade": "2",
+    "socket": "Secondary Weapon",
+    "effect": "Air Attack Damage +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15132",
+    "name": "Magic Crystal of Infinity - Critical Hit",
+    "grade": "2",
+    "socket": "Secondary Weapon",
+    "effect": "Critical Hit Damage +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15133",
+    "name": "Magic Crystal of Infinity - Speed Attack",
+    "grade": "2",
+    "socket": "Secondary Weapon",
+    "effect": "Speed Attack Damage +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15134",
+    "name": "Magic Crystal of Infinity - Counter Attack",
+    "grade": "2",
+    "socket": "Secondary Weapon",
+    "effect": "Counter Attack Damage +1",
+    "breakChance": "High"
+  },
+  {
+    "id": "15135",
+    "name": "Magic Crystal of Infinity - Siege",
+    "grade": "2",
+    "socket": "Armor",
+    "effect": "Siege Weapon Evasion +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15136",
+    "name": "Magic Crystal of Infinity - Evasion",
+    "grade": "2",
+    "socket": "Armor",
+    "effect": "Special Attack Evasion Rate +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15137",
+    "name": "Magic Crystal of Infinity - Melee Defense",
+    "grade": "2",
+    "socket": "Armor",
+    "effect": "Melee Damage Reduction +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15138",
+    "name": "Magic Crystal of Infinity - Ranged Defense",
+    "grade": "2",
+    "socket": "Armor",
+    "effect": "Ranged Damage Reduction +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15139",
+    "name": "Magic Crystal of Infinity - Magic Defense",
+    "grade": "2",
+    "socket": "Armor",
+    "effect": "Magic Damage Reduction +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15146",
+    "name": "Magic Crystal of Infinity - Energy",
+    "grade": "2",
+    "socket": "Shoes",
+    "effect": "Max Energy +10",
+    "breakChance": "Very High"
+  },
+  {
+    "id": "15147",
+    "name": "Magic Crystal of Infinity - Submergence",
+    "grade": "2",
+    "socket": "Shoes",
+    "effect": "Breath Gauge +15sec",
+    "breakChance": "High"
+  },
+  {
+    "id": "15148",
+    "name": "Magic Crystal of Infinity - Melee Attack",
+    "grade": "2",
+    "socket": "Gloves",
+    "effect": "Melee AP +2",
+    "breakChance": "Very High"
+  },
+  {
+    "id": "15149",
+    "name": "Magic Crystal of Infinity - Ranged Attack",
+    "grade": "2",
+    "socket": "Gloves",
+    "effect": "Ranged AP +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15150",
+    "name": "Magic Crystal of Infinity - Magic Attack",
+    "grade": "2",
+    "socket": "Gloves",
+    "effect": "Magic AP +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15151",
+    "name": "Magic Crystal of Infinity - Ignore Knockback Resistance",
+    "grade": "2",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Knockback Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15152",
+    "name": "Magic Crystal of Infinity - Ignore Knockdown Resistance",
+    "grade": "2",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Knockdown Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15153",
+    "name": "Magic Crystal of Infinity - Ignore Grapple Resistance",
+    "grade": "2",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Grapple Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15154",
+    "name": "Magic Crystal of Infinity - Ignore Stun Resistance",
+    "grade": "2",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Stun Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15201",
+    "name": "Black Magic Crystal - Precision",
+    "grade": "3",
+    "socket": "Weapon",
+    "effect": "All Accuracy +8, Ignore All Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15202",
+    "name": "Black Magic Crystal - Power",
+    "grade": "3",
+    "socket": "Weapon",
+    "effect": "All AP +2, Ignore All Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15203",
+    "name": "Black Magic Crystal - Carnage",
+    "grade": "3",
+    "socket": "Any",
+    "effect": "Additional Damage to Demihumans +2, Ignore All Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15204",
+    "name": "Black Magic Crystal - Carnage",
+    "grade": "3",
+    "socket": "Any",
+    "effect": "Additional Damage to Humans +2, Ignore All Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15205",
+    "name": "Black Magic Crystal - Carnage",
+    "grade": "3",
+    "socket": "Any",
+    "effect": "Additional Damage to Beasts +2, Ignore All Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15206",
+    "name": "Black Magic Crystal - Armor",
+    "grade": "3",
+    "socket": "Armor",
+    "effect": "All Damage Reduction +2, Stun/Stiffness/Freezing Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15207",
+    "name": "Black Magic Crystal - Vigor",
+    "grade": "3",
+    "socket": "Armor",
+    "effect": "Max HP +50, Stun/Stiffness/Freezing Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15208",
+    "name": "Black Magic Crystal - Patience",
+    "grade": "3",
+    "socket": "Armor",
+    "effect": "Max MP/WP/SP +50, Stun/Stiffness/Freezing Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15209",
+    "name": "Black Magic Crystal - Healing",
+    "grade": "3",
+    "socket": "Armor",
+    "effect": "HP Recovery +5",
+    "breakChance": "High"
+  },
+  {
+    "id": "15210",
+    "name": "Black Magic Crystal - Resonance",
+    "grade": "3",
+    "socket": "Armor",
+    "effect": "MP/WP/SP Recovery +5, Stun/Stiffness/Freezing Resistance 10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15211",
+    "name": "Black Magic Crystal - Swiftness",
+    "grade": "3",
+    "socket": "Shoes",
+    "effect": "Movement Speed +2, Knockback/Floating Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15212",
+    "name": "Black Magic Crystal - Adamantine",
+    "grade": "3",
+    "socket": "Shoes",
+    "effect": "Knockback/Floating Resistance +10%, Knockdown/Bound Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15213",
+    "name": "Black Magic Crystal - Ascension",
+    "grade": "3",
+    "socket": "Shoes",
+    "effect": "Jump Height +35, Knockback/Floating Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15214",
+    "name": "Black Magic Crystal - Descent",
+    "grade": "3",
+    "socket": "Shoes",
+    "effect": "Fall Damage -15%, Knockback/Floating Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15215",
+    "name": "Black Magic Crystal - Endurance",
+    "grade": "3",
+    "socket": "Shoes",
+    "effect": "Max Stamina +250",
+    "breakChance": "High"
+  },
+  {
+    "id": "15216",
+    "name": "Black Magic Crystal - Assault",
+    "grade": "3",
+    "socket": "Gloves",
+    "effect": "Attack Speed +2, Grapple Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15217",
+    "name": "Black Magic Crystal - Sturdiness",
+    "grade": "3",
+    "socket": "Gloves",
+    "effect": "Grapple Resistance +10%, Knockback/Floating Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15218",
+    "name": "Black Magic Crystal - Valor",
+    "grade": "3",
+    "socket": "Gloves",
+    "effect": "Critical Hit +2, Grapple Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15219",
+    "name": "Black Magic Crystal - Precision",
+    "grade": "3",
+    "socket": "Gloves",
+    "effect": "All Accuracy +8, Grapple Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15221",
+    "name": "Black Magic Crystal - Memory",
+    "grade": "3",
+    "socket": "Helmet",
+    "effect": "Casting Speed +2, Knockdown/Bound Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15222",
+    "name": "Black Magic Crystal - Intimidation",
+    "grade": "3",
+    "socket": "Helmet",
+    "effect": "Knockdown/Bound Resistance +10%, Stun/Stiffness/Freezing Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15223",
+    "name": "Black Magic Crystal - Vision",
+    "grade": "3",
+    "socket": "Helmet",
+    "effect": "Vision Range +15m, Knockdown/Bound Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15224",
+    "name": "Black Magic Crystal - Agility",
+    "grade": "3",
+    "socket": "Helmet",
+    "effect": "All Evasion +2, Knockdown/Bound Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15601",
+    "name": "Ancient Magic Crystal - Harphia",
+    "grade": "4",
+    "socket": "Helmet",
+    "effect": "Max HP +50, HP Recovery +5",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15602",
+    "name": "Ancient Magic Crystal - Cobelinus",
+    "grade": "4",
+    "socket": "Armor",
+    "effect": "Max HP +100, Weight Limit +20LT",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15603",
+    "name": "Ancient Magic Crystal - Viper",
+    "grade": "4",
+    "socket": "Gloves",
+    "effect": "Attack Speed +1, Casting Speed +1",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15604",
+    "name": "Ancient Magic Crystal - Hystria",
+    "grade": "4",
+    "socket": "Shoes",
+    "effect": "Weight Limit +20LT, Movement Speed +1",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15605",
+    "name": "Ancient Magic Crystal - Carmae",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +1, Attack Speed +1",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15606",
+    "name": "Ancient Magic Crystal of Crimson Flame - Power",
+    "grade": "3",
+    "socket": "Weapon",
+    "effect": "All AP +5",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15610",
+    "name": "Ancient Magic Crystal of Abundance - Armor",
+    "grade": "3",
+    "socket": "Armor",
+    "effect": "All Damage Reduction +5",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15613",
+    "name": "Ancient Magic Crystal of Abundance- Healing",
+    "grade": "3",
+    "socket": "Armor",
+    "effect": "Max HP +50, HP Recovery +3",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15614",
+    "name": "Ancient Magic Crystal of Abundance - Resonance",
+    "grade": "3",
+    "socket": "Armor",
+    "effect": "Max MP/WP/SP +50, MP/WP/SP Recovery +3",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15616",
+    "name": "Ancient Magic Crystal of Nature - Adamantine",
+    "grade": "3",
+    "socket": "Shoes",
+    "effect": "Knockdown/Bound Resistance +25%",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15624",
+    "name": "Ancient Magic Crystal of Enchantment - Agility",
+    "grade": "3",
+    "socket": "Helmet",
+    "effect": "All Evasion +5",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15626",
+    "name": "Black Spirit Crystal",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Max HP +100, All AP +5",
+    "breakChance": "High"
+  },
+  {
+    "id": "15627",
+    "name": "Awakened Spirit's Crystal",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Max HP +150, All AP +5",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15628",
+    "name": "Black Magic Crystal - Harphia",
+    "grade": "4",
+    "socket": "Helmet",
+    "effect": "Max HP +50, HP Recovery +5, All Evasion +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15629",
+    "name": "Black Magic Crystal - Cobelinus",
+    "grade": "4",
+    "socket": "Armor",
+    "effect": "Max HP +100, Weight Limit +20LT, All Damage Reduction +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15630",
+    "name": "Black Magic Crystal - Viper",
+    "grade": "4",
+    "socket": "Gloves",
+    "effect": "Attack Speed +1, Casting Speed +1, All Accuracy +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15631",
+    "name": "Black Magic Crystal - Hystria",
+    "grade": "4",
+    "socket": "Shoes",
+    "effect": "Weight Limit +20LT, Movement Speed +1, Max Stamina +150",
+    "breakChance": "High"
+  },
+  {
+    "id": "15632",
+    "name": "Black Magic Crystal - Carmae",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +1, Attack Speed +1, All AP +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15633",
+    "name": "Red Spirit Crystal",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Max HP +100, All AP +5, Additional Damage to Humans +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15634",
+    "name": "Red Battlefield Crystal: Harphia",
+    "grade": "4",
+    "socket": "Helmet",
+    "effect": "Max HP +50, HP Recovery +5, Additional Damage to Humans +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15635",
+    "name": "Red Battlefield Crystal: Cobelinus",
+    "grade": "4",
+    "socket": "Armor",
+    "effect": "Max HP +100, Weight Limit +20LT, Additional Damage to Humans +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15636",
+    "name": "Red Battlefield Crystal: Viper",
+    "grade": "4",
+    "socket": "Gloves",
+    "effect": "Attack Speed +1, Casting Speed +1, Additional Damage to Humans +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15637",
+    "name": "Red Battlefield Crystal: Hystria",
+    "grade": "4",
+    "socket": "Shoes",
+    "effect": "Weight Limit +20LT, Movement Speed +1, Additional Damage to Humans +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15638",
+    "name": "Red Battlefield Crystal: Carmae",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +1, Attack Speed +1, Additional Damage to Humans +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15639",
+    "name": "Red Battlefield Crystal: Power",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "All AP +5, Additional Damage to Humans +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15640",
+    "name": "Red Battlefield Crystal: Adamantine",
+    "grade": "4",
+    "socket": "Shoes",
+    "effect": "Knockdown/Bound Resistance +25%, Stun/Stiffness/Freezing Resistance +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15641",
+    "name": "Ancient Spirit's Crystal - Swiftness",
+    "grade": "4",
+    "socket": "Costume",
+    "effect": "Movement Speed +2",
+    "breakChance": "None"
+  },
+  {
+    "id": "15649",
+    "name": "Ancient Magic Crystal - Addis",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +1, Casting Speed +1",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15650",
+    "name": "Black Magic Crystal - Addis",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +1, Casting Speed +1, All AP +2",
+    "breakChance": "High"
+  },
+  {
+    "id": "15651",
+    "name": "Red Battlefield Crystal - Addis",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +1, Casting Speed +1, Additional Damage to Humans +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15652",
+    "name": "Ancient Spirit's Crystal - Valor",
+    "grade": "4",
+    "socket": "Costume",
+    "effect": "Critical Hit +1",
+    "breakChance": "None"
+  },
+  {
+    "id": "15653",
+    "name": "Ancient Spirit's Crystal - Viper",
+    "grade": "4",
+    "socket": "Costume",
+    "effect": "Attack Speed +1, Casting Speed +1",
+    "breakChance": "None"
+  },
+  {
+    "id": "15654",
+    "name": "Valtarra Spirit's Crystal",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Max HP +150, All AP +5, Extra Damage Against Kamasylvian Monsters +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15662",
+    "name": "Combined Magic Crystal - Gervish",
+    "grade": "4",
+    "socket": "Any",
+    "effect": "- 2 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, , - 4 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, Combat EXP +5%, Skill EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15663",
+    "name": "Combined Magic Crystal - Macalod",
+    "grade": "4",
+    "socket": "Any",
+    "effect": "- 2 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, , - 4 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, Combat EXP +5%, Ignore All Resistance +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15664",
+    "name": "Combined Magic Crystal - Hoom",
+    "grade": "4",
+    "socket": "Any",
+    "effect": "- 2 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, , - 4 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, All Accuracy +8, Ignore All Resistance +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15665",
+    "name": "HAN Magic Crystal - Gervish",
+    "grade": "4",
+    "socket": "Any",
+    "effect": "Combat EXP +1%, Skill EXP +1%, Weight Limit +15LT, , - 2 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, , - 4 crystal set effect, Critical Hit +1, Movement Speed +1, Weight Limit +75LT, Combat EXP +5%, Skill EXP +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15666",
+    "name": "HAN Magic Crystal - Macalod",
+    "grade": "4",
+    "socket": "Any",
+    "effect": "Combat EXP +1%, Ignore All Resistance +1%, Max Stamina +20, , - 2 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, , - 4 crystal set effect, All AP +5, Max Stamina +100, All Accuracy +4, Combat EXP +5%, Ignore All Resistance +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15667",
+    "name": "HAN Magic Crystal - Hoom",
+    "grade": "4",
+    "socket": "Any",
+    "effect": "All Accuracy +2, All Resistance +1, Max HP +30, , - 2 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, , - 4 crystal set effect, All Damage Reduction +5, Max HP +150, All Evasion +4, All Accuracy +8, All Resistance +3%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15669",
+    "name": "Dark Red Fang Crystal - Valor",
+    "grade": "4",
+    "socket": "Gloves",
+    "effect": "Critical Hit +2, All AP +5",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15670",
+    "name": "Dark Red Fang Crystal - Armor",
+    "grade": "4",
+    "socket": "Armor",
+    "effect": "All Damage Reduction +7, All Resistance +2%",
+    "breakChance": "Low"
+  },
+  {
+    "id": "15672",
+    "name": "Corrupted Magic Crystal",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Critical Hit Damage +10%, All AP +2, All Damage Reduction -2, , - 2 crystal set effect, Critical Hit Damage +2%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15674",
+    "name": "Crystal of Elkarr",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "All Accuracy +12, Ignore All Resistance +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15675",
+    "name": "Ah'krad Crystal",
+    "grade": "4",
+    "socket": "Awakening Weapon",
+    "effect": "All Accuracy +3, Extra AP Against Monsters +5",
+    "breakChance": "High"
+  },
+  {
+    "id": "15676",
+    "name": "Olucas Crystal",
+    "grade": "4",
+    "socket": "Awakening Weapon",
+    "effect": "All Accuracy +3, Additional Damage to Humans +5",
+    "breakChance": "High"
+  },
+  {
+    "id": "15677",
+    "name": "Rebellious Spirit Crystal",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Max HP +175, All AP +5, Extra AP Against Monsters +5, Skill EXP +5%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15695",
+    "name": "WON Glorous Crystal of Courage - Ignore Knockback Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Knockback/Floating Resistance +10%, All AP +3, Max HP +50",
+    "breakChance": "High"
+  },
+  {
+    "id": "15696",
+    "name": "BON Glorous Crystal of Courage - Ignore Knockback Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Knockback/Floating Resistance +10%, All AP +2, Max HP +100",
+    "breakChance": "High"
+  },
+  {
+    "id": "15697",
+    "name": "JIN Glorous Crystal of Courage - Ignore Knockback Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Knockback/Floating Resistance +10%, All AP +3, Max HP +100",
+    "breakChance": "High"
+  },
+  {
+    "id": "15698",
+    "name": "WON Glorous Crystal of Courage - Ignore Knockdown Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +3, Max HP +50",
+    "breakChance": "High"
+  },
+  {
+    "id": "15699",
+    "name": "BON Glorous Crystal of Courage - Ignore Knockdown Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +2, Max HP +100",
+    "breakChance": "High"
+  },
+  {
+    "id": "15700",
+    "name": "JIN Glorous Crystal of Courage - Ignore Knockdown Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Knockdown/Bound Resistance +10%, All AP +3, Max HP +100",
+    "breakChance": "High"
+  },
+  {
+    "id": "15701",
+    "name": "WON Glorous Crystal of Courage - Ignore Grapple Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Grapple Resistance +10%, All AP +3, Max HP +50",
+    "breakChance": "High"
+  },
+  {
+    "id": "15702",
+    "name": "BON Glorous Crystal of Courage - Ignore Grapple Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Grapple Resistance +10%, All AP +2, Max HP +100",
+    "breakChance": "High"
+  },
+  {
+    "id": "15703",
+    "name": "JIN Glorous Crystal of Courage - Ignore Grapple Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Grapple Resistance +10%, All AP +3, Max HP +100",
+    "breakChance": "High"
+  },
+  {
+    "id": "15704",
+    "name": "WON Glorous Crystal of Courage - Ignore Stun Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +3, Max HP +50",
+    "breakChance": "High"
+  },
+  {
+    "id": "15705",
+    "name": "BON Glorous Crystal of Courage - Ignore Stun Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +2, Max HP +100",
+    "breakChance": "High"
+  },
+  {
+    "id": "15706",
+    "name": "JIN Glorous Crystal of Courage - Ignore Stun Resistance",
+    "grade": "4",
+    "socket": "Secondary Weapon",
+    "effect": "Ignore Stun/Stiffness/Freezing Resistance +10%, All AP +3, Max HP +100",
+    "breakChance": "High"
+  },
+  {
+    "id": "15801",
+    "name": "JIN Magic Crystal - Harphia",
+    "grade": "4",
+    "socket": "Helmet",
+    "effect": "Max HP +50, HP Recovery +5, All Evasion +20",
+    "breakChance": "High"
+  },
+  {
+    "id": "15802",
+    "name": "BON Magic Crystal - Harphia",
+    "grade": "4",
+    "socket": "Helmet",
+    "effect": "Max HP +75, HP Recovery +5, All Evasion +12",
+    "breakChance": "High"
+  },
+  {
+    "id": "15803",
+    "name": "WON Magic Crystal - Harphia",
+    "grade": "4",
+    "socket": "Helmet",
+    "effect": "Max HP +50, HP Recovery +10, All Evasion +12",
+    "breakChance": "High"
+  },
+  {
+    "id": "15804",
+    "name": "JIN Magic Crystal - Cobelinus",
+    "grade": "4",
+    "socket": "Armor",
+    "effect": "Max HP +100, Weight Limit +20LT, All Damage Reduction +5",
+    "breakChance": "High"
+  },
+  {
+    "id": "15805",
+    "name": "BON Magic Crystal - Cobelinus",
+    "grade": "4",
+    "socket": "Armor",
+    "effect": "Max HP +150, Weight Limit +20LT, All Damage Reduction +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15806",
+    "name": "WON Magic Crystal - Cobelinus",
+    "grade": "4",
+    "socket": "Armor",
+    "effect": "Max HP +100, Weight Limit +50LT, All Damage Reduction +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15807",
+    "name": "JIN Magic Crystal - Viper",
+    "grade": "4",
+    "socket": "Gloves",
+    "effect": "Attack Speed +1, Casting Speed +1, All Accuracy +20",
+    "breakChance": "High"
+  },
+  {
+    "id": "15808",
+    "name": "BON Magic Crystal - Viper",
+    "grade": "4",
+    "socket": "Gloves",
+    "effect": "Attack Speed +2, Casting Speed +1, All Accuracy +12",
+    "breakChance": "High"
+  },
+  {
+    "id": "15809",
+    "name": "WON Magic Crystal - Viper",
+    "grade": "4",
+    "socket": "Gloves",
+    "effect": "Attack Speed +1, Casting Speed +2, All Accuracy +12",
+    "breakChance": "High"
+  },
+  {
+    "id": "15810",
+    "name": "JIN Magic Crystal - Hystria",
+    "grade": "4",
+    "socket": "Shoes",
+    "effect": "Weight Limit +30LT, Movement Speed +1, Max Stamina +175",
+    "breakChance": "High"
+  },
+  {
+    "id": "15811",
+    "name": "BON Magic Crystal - Hystria",
+    "grade": "4",
+    "socket": "Shoes",
+    "effect": "Weight Limit +50LT, Movement Speed +1, Max Stamina +150",
+    "breakChance": "High"
+  },
+  {
+    "id": "15812",
+    "name": "WON Magic Crystal - Hystria",
+    "grade": "4",
+    "socket": "Shoes",
+    "effect": "Weight Limit +20LT, Movement Speed +2, Max Stamina +150",
+    "breakChance": "High"
+  },
+  {
+    "id": "15813",
+    "name": "JIN Magic Crystal - Carmae",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +1, Attack Speed +1, All AP +5",
+    "breakChance": "High"
+  },
+  {
+    "id": "15814",
+    "name": "BON Magic Crystal - Carmae",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +2, Attack Speed +1, All AP +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15815",
+    "name": "WON Magic Crystal - Carmae",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +1, Attack Speed +2, All AP +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15816",
+    "name": "JIN Magic Crystal - Addis",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +1, Casting Speed +1, All AP +5",
+    "breakChance": "High"
+  },
+  {
+    "id": "15817",
+    "name": "BON Magic Crystal - Addis",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +2, Casting Speed +1, All AP +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15818",
+    "name": "WON Magic Crystal - Addis",
+    "grade": "4",
+    "socket": "Weapon",
+    "effect": "Critical Hit +1, Casting Speed +2, All AP +3",
+    "breakChance": "High"
+  },
+  {
+    "id": "15851",
+    "name": "Kydict's Crystal - Adventure",
+    "grade": "4",
+    "socket": "Helmet",
+    "effect": "Max HP +50, HP Recovery +5, Combat EXP +10%",
+    "breakChance": "High"
+  },
+  {
+    "id": "15852",
+    "name": "Kydict's Crystal - Giant",
+    "grade": "4",
+    "socket": "Armor",
+    "effect": "Max HP +100, All Damage Reduction +2, Stun/Stiffness/Freezing Resistance +10%",
+    "breakChance": "High"
+  }
 ]
