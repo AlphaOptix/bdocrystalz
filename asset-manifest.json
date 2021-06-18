@@ -7,10 +7,10 @@
     "static/js/2.d0fc1b04.chunk.js": "/bdocrystalz/static/js/2.d0fc1b04.chunk.js",
     "static/js/2.d0fc1b04.chunk.js.map": "/bdocrystalz/static/js/2.d0fc1b04.chunk.js.map",
     "main.css": "/bdocrystalz/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/bdocrystalz/static/js/main.7bf5ca63.chunk.js",
-    "main.js.map": "/bdocrystalz/static/js/main.7bf5ca63.chunk.js.map",
-    "runtime-main.js": "/bdocrystalz/static/js/runtime-main.af363cc9.js",
-    "runtime-main.js.map": "/bdocrystalz/static/js/runtime-main.af363cc9.js.map",
+    "main.js": "/bdocrystalz/static/js/main.bf449a71.chunk.js",
+    "main.js.map": "/bdocrystalz/static/js/main.bf449a71.chunk.js.map",
+    "runtime-main.js": "/bdocrystalz/static/js/runtime-main.913b0e2a.js",
+    "runtime-main.js.map": "/bdocrystalz/static/js/runtime-main.913b0e2a.js.map",
     "static/css/5.44b80b03.chunk.css": "/bdocrystalz/static/css/5.44b80b03.chunk.css",
     "static/js/5.fa3c14c2.chunk.js": "/bdocrystalz/static/js/5.fa3c14c2.chunk.js",
     "static/js/5.fa3c14c2.chunk.js.map": "/bdocrystalz/static/js/5.fa3c14c2.chunk.js.map",
@@ -18,8 +18,8 @@
     "static/js/6.6db61275.chunk.js.map": "/bdocrystalz/static/js/6.6db61275.chunk.js.map",
     "static/js/7.972c8b47.chunk.js": "/bdocrystalz/static/js/7.972c8b47.chunk.js",
     "static/js/7.972c8b47.chunk.js.map": "/bdocrystalz/static/js/7.972c8b47.chunk.js.map",
-    "static/js/8.11b489a9.chunk.js": "/bdocrystalz/static/js/8.11b489a9.chunk.js",
-    "static/js/8.11b489a9.chunk.js.map": "/bdocrystalz/static/js/8.11b489a9.chunk.js.map",
+    "static/js/8.37edf904.chunk.js": "/bdocrystalz/static/js/8.37edf904.chunk.js",
+    "static/js/8.37edf904.chunk.js.map": "/bdocrystalz/static/js/8.37edf904.chunk.js.map",
     "static/js/9.6bdc3d7f.chunk.js": "/bdocrystalz/static/js/9.6bdc3d7f.chunk.js",
     "static/js/9.6bdc3d7f.chunk.js.map": "/bdocrystalz/static/js/9.6bdc3d7f.chunk.js.map",
     "static/js/10.e37d831f.chunk.js": "/bdocrystalz/static/js/10.e37d831f.chunk.js",
@@ -48,10 +48,10 @@
     "static/media/index.css": "/bdocrystalz/static/media/roboto-vietnamese-400-normal.52cebac0.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.af363cc9.js",
+    "static/js/runtime-main.913b0e2a.js",
     "static/css/5.44b80b03.chunk.css",
     "static/js/5.fa3c14c2.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.7bf5ca63.chunk.js"
+    "static/js/main.bf449a71.chunk.js"
   ]
 }
