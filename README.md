@@ -1,4 +1,4 @@
-# bdocrystalz
+# bdocrystalz (Out of date, will update eventually)
 
 This is the repository for https://alphaoptix.github.io/bdocrystalz
 
