@@ -30,7 +30,7 @@ function App () {
             BDO Crystalz
           </Typography>
           <Typography variant='h6' component='h2' gutterBottom>
-            Black Desert Online Crystal Reference
+            Black Desert Online Crystal Reference <Typography style={{ color: "DarkRed" }}>(Note: Out of date)</Typography>
           </Typography>
           <Typography gutterBottom>
             Need to know if there is an AP crystal for your offhand weapon? Now
