@@ -7,13 +7,13 @@
     "static/js/2.d0fc1b04.chunk.js": "/bdocrystalz/static/js/2.d0fc1b04.chunk.js",
     "static/js/2.d0fc1b04.chunk.js.map": "/bdocrystalz/static/js/2.d0fc1b04.chunk.js.map",
     "main.css": "/bdocrystalz/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/bdocrystalz/static/js/main.bf449a71.chunk.js",
-    "main.js.map": "/bdocrystalz/static/js/main.bf449a71.chunk.js.map",
+    "main.js": "/bdocrystalz/static/js/main.c961db3e.chunk.js",
+    "main.js.map": "/bdocrystalz/static/js/main.c961db3e.chunk.js.map",
     "runtime-main.js": "/bdocrystalz/static/js/runtime-main.913b0e2a.js",
     "runtime-main.js.map": "/bdocrystalz/static/js/runtime-main.913b0e2a.js.map",
     "static/css/5.44b80b03.chunk.css": "/bdocrystalz/static/css/5.44b80b03.chunk.css",
-    "static/js/5.fa3c14c2.chunk.js": "/bdocrystalz/static/js/5.fa3c14c2.chunk.js",
-    "static/js/5.fa3c14c2.chunk.js.map": "/bdocrystalz/static/js/5.fa3c14c2.chunk.js.map",
+    "static/js/5.215df91e.chunk.js": "/bdocrystalz/static/js/5.215df91e.chunk.js",
+    "static/js/5.215df91e.chunk.js.map": "/bdocrystalz/static/js/5.215df91e.chunk.js.map",
     "static/js/6.6db61275.chunk.js": "/bdocrystalz/static/js/6.6db61275.chunk.js",
     "static/js/6.6db61275.chunk.js.map": "/bdocrystalz/static/js/6.6db61275.chunk.js.map",
     "static/js/7.972c8b47.chunk.js": "/bdocrystalz/static/js/7.972c8b47.chunk.js",
@@ -44,14 +44,14 @@
     "static/css/5.44b80b03.chunk.css.map": "/bdocrystalz/static/css/5.44b80b03.chunk.css.map",
     "static/css/main.8c8b27cf.chunk.css.map": "/bdocrystalz/static/css/main.8c8b27cf.chunk.css.map",
     "static/js/1.f1ba10be.chunk.js.LICENSE.txt": "/bdocrystalz/static/js/1.f1ba10be.chunk.js.LICENSE.txt",
-    "static/js/5.fa3c14c2.chunk.js.LICENSE.txt": "/bdocrystalz/static/js/5.fa3c14c2.chunk.js.LICENSE.txt",
+    "static/js/5.215df91e.chunk.js.LICENSE.txt": "/bdocrystalz/static/js/5.215df91e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/bdocrystalz/static/media/roboto-vietnamese-400-normal.52cebac0.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.913b0e2a.js",
     "static/css/5.44b80b03.chunk.css",
-    "static/js/5.fa3c14c2.chunk.js",
+    "static/js/5.215df91e.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.bf449a71.chunk.js"
+    "static/js/main.c961db3e.chunk.js"
   ]
 }
