@@ -1,4 +1,4 @@
-# bdocrystalz (Out of date, will update eventually)
+# bdocrystalz (New crystal system, this won't be updated)
 
 This is the repository for https://alphaoptix.github.io/bdocrystalz
 
